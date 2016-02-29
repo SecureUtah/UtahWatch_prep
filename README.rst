@@ -1,10 +1,12 @@
 UtahWatch
 ==========
 
-This is the UtahWatch project. It tracks the HTTPS support of websites of Utah-based entities. UtahWatch is part of the `SecureUtah.org`_ website.
+UtahWatch tracks the HTTPS support of websites of Utah-based entities. UtahWatch is part of the `SecureUtah.org`_ website.
 
 UtahWatch is a fork of `HTTPSWatch`_. The HTTPSWatch code is available on `GitHub`_ and was originally created by Benjamin Peterson.
 
+
+-----------
 
 The following instructions are taken from the HTTPSWatch README and apply to this project:
 

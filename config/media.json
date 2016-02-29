@@ -1,0 +1,115 @@
+{
+    "categories": [
+        {
+            "name": "TV & Radio Stations",
+            "linkname": "stations",
+            "sites": [
+                {
+                    "name": "KUTV  - Channel 2, CBS",
+                    "domain": "www.kutv.com",
+                    "twitter": "kutv2news"
+                },
+                {
+                    "name": "KTVX  - Channel 4, ABC",
+                    "domain": "www.good4utah.com",
+                    "twitter": "abc4utah"
+                },
+                {
+                    "name": "KSL  - Channel 5, NBC",
+                    "domain": "www.ksl.com",
+                    "twitter": "kslcom"
+                },
+                {
+                    "name": "KUED  - Channel 7, PBS",
+                    "domain": "www.kued.org",
+                    "twitter": "kued"
+                },
+                {
+                    "name": "KSTU  - Channel 13, FOX",
+                    "domain": "www.fox13now.com",
+                    "twitter": "fox13now"
+                },
+                {
+                    "name": "KUER  - 90.1 FM",
+                    "domain": "www.kuer.org",
+                    "twitter": "kuer_fm"
+                },
+                {
+                    "name": "KRCL  - 90.9 FM",
+                    "domain": "www.krcl.org",
+                    "twitter": "krclradio"
+                },
+                {
+                    "name": "KODJ  - 94.1 FM",
+                    "domain": "www.941kodj.com",
+                    "twitter": "941kodj"
+                },
+                {
+                    "name": "KXRK  - 96.3 FM",
+                    "domain": "www.x96.com",
+                    "twitter": "x96"
+                },
+                {
+                    "name": "KSFI  - 100.3 FM",
+                    "domain": "www.fm100.com"
+                },
+                {
+                    "name": "KBER  - 101.1 FM",
+                    "domain": "www.kber.com",
+                    "twitter": "kber101"
+                }
+            ]
+        },
+        {
+            "name": "Magazines & Newpapers",
+            "linkname": "print",
+            "sites": [
+                {
+                    "name": "Catalyst Magazine",
+                    "domain": "www.catalystmagazine.net",
+                    "twitter": "catalystmag"
+                },
+                {
+                    "name": "Daily Herald",
+                    "domain": "www.heraldextra.com",
+                    "twitter": "heraldextra"
+                },
+                {
+                    "name": "Deseret News",
+                    "domain": "www.deseretnews.com",
+                    "twitter": "deseretnews"
+                },
+                {
+                    "name": "QSaltLake",
+                    "domain": "www.gaysaltlake.com",
+                    "twitter": "qsaltlake"
+                },
+                {
+                    "name": "Salt Lake City Weekly",
+                    "domain": "www.cityweekly.net",
+                    "twitter": "cityweekly"
+                },
+                {
+                    "name": "Salt Lake Tribune",
+                    "domain": "www.sltrib.com",
+                    "twitter": "sltrib"
+                },
+                {
+                    "name": "SLUG Magazine",
+                    "domain": "www.slugmag.com",
+                    "twitter": "slubmag"
+                },
+                {
+                    "name": "Standard-Examiner",
+                    "domain": "www.standard.net",
+                    "twitter": "standardex"
+                },
+                {
+                    "name": "The Herald Journal",
+                    "domain": "www.news.hjnews.com",
+                    "twitter": "hjnews"
+                }
+            ]
+        }
+    ]
+}

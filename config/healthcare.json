@@ -1,0 +1,139 @@
+{
+    "categories": [
+        {
+            "name": "Facilities & Services",
+            "linkname": "facilities",
+            "sites": [
+                {
+                    "name": "Alpine Home Medical",
+                    "domain": "www.alpinehomemedical.com",
+                    "twitter": "alpinehme"
+                },
+                {
+                    "name": "Brigham City Community Hospital",
+                    "domain": "www.brighamcityhospital.com",
+                    "twitter": "brighamcityhosp"
+                },
+                {
+                    "name": "CareSource Home Health & Hospice",
+                    "domain": "www.caresourcehealthcare.com"
+                },
+                {
+                    "name": "EMI Health",
+                    "domain": "www.emihealth.com",
+                    "twitter": "emihealth"
+                },
+                {
+                    "name": "Intermountain Healthcare",
+                    "domain": "www.intermountainhealthcare.org",
+                    "twitter": "intermountain"
+                },
+                {
+                    "name": "Jordan Valley Medical Center",
+                    "domain": "www.jordanvalleymc.com",
+                    "twitter": "jordanvalleymed"
+                },
+                {
+                    "name": "Lakeview Hospital",
+                    "domain": "www.lakeviewhospital.com",
+                    "twitter": "lakeviewhosp"
+                },
+                {
+                    "name": "Merit Medical Systems",
+                    "domain": "www.merit.com"
+                },
+                {
+                    "name": "Mission Health Services",
+                    "domain": "www.missionhealthservices.org"
+                },
+                {
+                    "name": "Mountain View Hospital",
+                    "domain": "www.mvhpayson.com",
+                    "twitter": "mvhpayson"
+                },
+                {
+                    "name": "Ogden Clinic",
+                    "domain": "www.ogdenclinic.com",
+                    "twitter": "ogdenclinic"
+                },
+                {
+                    "name": "Ogden Regional Medical Center",
+                    "domain": "www.ogdenregional.com",
+                    "twitter": "ogdenregional"
+                },
+                {
+                    "name": "Promise Hospital of Salt Lake",
+                    "domain": "www.promise-saltlake.com"
+                },
+                {
+                    "name": "SouthWest Vision",
+                    "domain": "www.southwestvision.org",
+                    "twitter": "southwestvision"
+                },
+                {
+                    "name": "St. Mark's Hospital",
+                    "domain": "www.stmarkshospital.com",
+                    "twitter": "stmarkshosp"
+                },
+                {
+                    "name": "Timpanogos Regional Hospital",
+                    "domain": "www.timpanogosregionalhospital.com",
+                    "twitter": "timpanogoshosp"
+                }
+            ]
+        },
+        {
+            "name": "Crisis Services, Shelters",
+            "linkname": "crisis",
+            "sites": [
+                {
+                    "name": "A.C.E.S.",
+                    "domain": "www.acestreatment.org"
+                },
+                {
+                    "name": "Dove Center",
+                    "domain": "www.dovecenter.org",
+                    "twitter": "tweet_dove"
+                },
+                {
+                    "name": "New Horizons Crisis Center",
+                    "domain": "www.centralutahcrisisintervention.org"
+                },
+                {
+                    "name": "Odyssey House",
+                    "domain": "www.odysseyhouse.org",
+                    "twitter": "odysseyhouseut"
+                },
+                {
+                    "name": "Rescue Mission of Salt Lake",
+                    "domain": "www.rescuesaltlake.org",
+                    "twitter": "rescuesaltlake"
+                },
+                {
+                    "name": "Safe Harbor Crisis Center",
+                    "domain": "www.safeharborhope.org",
+                    "twitter": "safeharborut"
+                },
+                {
+                    "name": "Seekhaven",
+                    "domain": "www.seekhaven.org",
+                    "twitter": "seekhaven"
+                },
+                {
+                    "name": "South Valley Services",
+                    "domain": "www.sysutah.org",
+                    "twitter": "svsutah"
+                },
+                {
+                    "name": "The Road Home",
+                    "domain": "www.theroadhome.org",
+                    "twitter": "theroadhomeut"
+                },
+                {
+                    "name": "Utah Domestic Violence Coalition",
+                    "domain": "www.udvc.org"
+                }
+            ]
+        }
+    ]
+}

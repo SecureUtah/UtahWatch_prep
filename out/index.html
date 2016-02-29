@@ -1,0 +1,2011 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="UtahWatch tracks the HTTPS support of websites in Utah.">
+    <meta name="viewport" content="width=800">
+    <title>UtahWatch | Tech</title>
+    <link rel="stylesheet" type="text/css" href="/static/main.css">
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    
+<script type="text/javascript">
+(function () {
+function toggleOpen(e) {
+    if (e.target.tagName === "A")
+        return;
+    this.parentNode.classList.toggle("details-open");
+}
+window.addEventListener("load", function onLoad() {
+    var elms = document.getElementsByClassName("site-status-summary");
+    for (var i = 0; i < elms.length; i++) {
+        elms[i].addEventListener("click", toggleOpen);
+    }
+
+    if (location.hash.slice(0, 6) === "#site-") {
+        var e = document.getElementById(location.hash.slice(1));
+        if (e !== null) {
+            e.classList.toggle("details-open");
+        }
+    }
+})
+})();
+</script>
+
+  </head>
+  <body>
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-74339992-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+    <header>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+        
+          <li>
+          
+            <span class="header-nav-link-current">Tech</span>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/business">Business</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/legal">Legal</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/financial">Financial</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/media">Media</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/healthcare">Healthcare</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/politics">Politics</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/education">Education</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/civic">Civic</a>
+          
+          </li>
+        
+        </ul>
+      </nav>
+    </header>
+    <div id="content-wrapper">
+      
+
+<h1>UtahWatch - Tech </h1>
+<p>UtahWatch tracks the HTTPS support of websites in Utah. Click to show details about a site&rsquo;s HTTPS support. See the <a href="/utahwatch/about">About page</a> for more information.
+
+<p>UtahWatch is a project by <a href="https://secureutah.org">SecureUtah.org</a>.
+
+
+<nav class="main-toc">
+  <ul class="nav-list">
+  
+    <li><a href="#security">Security</a>
+  
+    <li><a href="#web">Web, Software, IT</a>
+  
+    <li><a href="#startups">Startups &amp; VC</a>
+  
+    <li><a href="#groups">Groups, Events, Dev</a>
+  
+  </ul>
+</nav>
+
+
+<section id="security">
+  <div class="cat-header">
+    <h2 class="cat-name">Security</h2>
+    <a class="cat-name-link" title="Link to this category" href="#security">¶</a>
+    <div class="cat-counts">
+      <span class="site-grade-bad">2</span>/<span class="site-grade-mediocre">5</span>/<span class="site-grade-good">0</span>
+    </div>
+  </div>
+  <div class="site-category">
+  
+    <div class="site-entry" id="site-bsidesslc">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">BSidesSLC</span>
+        <span class="site-domain">(<a href="https://www.bsidesslc.org" rel="nofollow">www.bsidesslc.org</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.bsidesslc.org">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell BSidesSLC they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-bsidesslc" data-text="Hey @bsidesslc Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @bsidesslc
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-dc801">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">DC801</span>
+        <span class="site-domain">(<a href="https://www.dc801.com" rel="nofollow">www.dc801.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>connect()</code> to port 443 times out.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell DC801 they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-dc801" data-text="Hey @dc801 Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @dc801
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-dixonsecurity">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Dixon Security</span>
+        <span class="site-domain">(<a href="https://www.dixonsecurity.com" rel="nofollow">www.dixonsecurity.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Dixon Security they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-dixonsecurity" data-text="Hey @dixonsecurity Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @dixonsecurity
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-breachdetection">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Eastwind Networks</span>
+        <span class="site-domain">(<a href="https://www.eastwindnetworks.com" rel="nofollow">www.eastwindnetworks.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.eastwindnetworks.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Eastwind Networks they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-breachdetection" data-text="Hey @breachdetection Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @breachdetection
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-saintcon">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">SAINTCON</span>
+        <span class="site-domain">(<a href="https://www.saintcon.org" rel="nofollow">www.saintcon.org</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.saintcon.org">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell SAINTCON they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-saintcon" data-text="Hey @saintcon Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @saintcon
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-utahsaintcon">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">UtahSAINT</span>
+        <span class="site-domain">(<a href="https://www.utahsaint.org" rel="nofollow">www.utahsaint.org</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.utahsaint.org">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell UtahSAINT they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-utahsaintcon" data-text="Hey @utahsaintcon Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @utahsaintcon
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-vivint">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Vivint</span>
+        <span class="site-domain">(<a href="https://www.vivint.com" rel="nofollow">www.vivint.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.vivint.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Vivint they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-vivint" data-text="Hey @vivint Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @vivint
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+<section id="web">
+  <div class="cat-header">
+    <h2 class="cat-name">Web, Software, IT</h2>
+    <a class="cat-name-link" title="Link to this category" href="#web">¶</a>
+    <div class="cat-counts">
+      <span class="site-grade-bad">9</span>/<span class="site-grade-mediocre">8</span>/<span class="site-grade-good">0</span>
+    </div>
+  </div>
+  <div class="site-category">
+  
+    <div class="site-entry" id="site-ancestry">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Ancestry</span>
+        <span class="site-domain">(<a href="https://www.ancestry.com" rel="nofollow">www.ancestry.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.ancestry.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTTPS site redirects to HTTP.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Ancestry they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-ancestry" data-text="Hey @ancestry Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @ancestry
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-executech">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Executech</span>
+        <span class="site-domain">(<a href="https://www.executech.com" rel="nofollow">www.executech.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.executech.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Executech they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-executech" data-text="Hey @executech Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @executech
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-hirevue">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">HireVue</span>
+        <span class="site-domain">(<a href="https://www.hirevue.com" rel="nofollow">www.hirevue.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.hirevue.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell HireVue they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-hirevue" data-text="Hey @hirevue Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @hirevue
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-insidesales">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">InsideSales.com</span>
+        <span class="site-domain">(<a href="https://www.insidesales.com" rel="nofollow">www.insidesales.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.insidesales.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTML page loaded over HTTPS has mixed content.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell InsideSales.com they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-insidesales" data-text="Hey @insidesales Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @insidesales
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-instructure">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Instructure</span>
+        <span class="site-domain">(<a href="https://www.instructure.com" rel="nofollow">www.instructure.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.instructure.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Instructure they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-instructure" data-text="Hey @instructure Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @instructure
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" >
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">MX Technologies</span>
+        <span class="site-domain">(<a href="https://www.mx.com" rel="nofollow">www.mx.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.mx.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-objectiveinc">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Objective Inc</span>
+        <span class="site-domain">(<a href="https://www.objectiveinc.com" rel="nofollow">www.objectiveinc.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.objectiveinc.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTTPS site redirects to HTTP.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Objective Inc they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-objectiveinc" data-text="Hey @objectiveinc Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @objectiveinc
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-overstock">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Overstock</span>
+        <span class="site-domain">(<a href="https://www.overstock.com" rel="nofollow">www.overstock.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.overstock.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTTPS site redirects to HTTP.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Overstock they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-overstock" data-text="Hey @overstock Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @overstock
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-pclaptops">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">PC Laptops</span>
+        <span class="site-domain">(<a href="https://www.pclaptops.com" rel="nofollow">www.pclaptops.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.pclaptops.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTML page loaded over HTTPS has mixed content.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell PC Laptops they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-pclaptops" data-text="Hey @pclaptops Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @pclaptops
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-pluralsight">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">PluralSight</span>
+        <span class="site-domain">(<a href="https://www.pluralsight.com" rel="nofollow">www.pluralsight.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.pluralsight.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell PluralSight they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-pluralsight" data-text="Hey @pluralsight Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @pluralsight
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-squarehookweb">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">SquareHook</span>
+        <span class="site-domain">(<a href="https://www.squarehook.com" rel="nofollow">www.squarehook.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.squarehook.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTML page loaded over HTTPS has mixed content.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell SquareHook they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-squarehookweb" data-text="Hey @squarehookweb Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @squarehookweb
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-thirdsun">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Third Sun</span>
+        <span class="site-domain">(<a href="https://www.thirdsun.com" rel="nofollow">www.thirdsun.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.thirdsun.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Third Sun they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-thirdsun" data-text="Hey @thirdsun Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @thirdsun
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-truenorthlogic">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Truenorthlogic</span>
+        <span class="site-domain">(<a href="https://www.truenorthlogic.com" rel="nofollow">www.truenorthlogic.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Truenorthlogic they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-truenorthlogic" data-text="Hey @truenorthlogic Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @truenorthlogic
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-veracitynet">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Veracity Networks</span>
+        <span class="site-domain">(<a href="https://www.veracitynetworks.com" rel="nofollow">www.veracitynetworks.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.veracitynetworks.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTML page loaded over HTTPS has mixed content.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Veracity Networks they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-veracitynet" data-text="Hey @veracitynet Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @veracitynet
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-veriteinc">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Vérité</span>
+        <span class="site-domain">(<a href="https://www.verite.com" rel="nofollow">www.verite.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.verite.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Vérité they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-veriteinc" data-text="Hey @veriteinc Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @veriteinc
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-viawest_inc">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">ViaWest</span>
+        <span class="site-domain">(<a href="https://www.viawest.com" rel="nofollow">www.viawest.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.viawest.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell ViaWest they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-viawest_inc" data-text="Hey @viawest_inc Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @viawest_inc
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-xmission">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">XMission</span>
+        <span class="site-domain">(<a href="https://www.xmission.com" rel="nofollow">www.xmission.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.xmission.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTTPS site redirects to HTTP.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell XMission they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-xmission" data-text="Hey @xmission Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @xmission
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+<section id="startups">
+  <div class="cat-header">
+    <h2 class="cat-name">Startups &amp; VC</h2>
+    <a class="cat-name-link" title="Link to this category" href="#startups">¶</a>
+    <div class="cat-counts">
+      <span class="site-grade-bad">16</span>/<span class="site-grade-mediocre">4</span>/<span class="site-grade-good">0</span>
+    </div>
+  </div>
+  <div class="site-category">
+  
+    <div class="site-entry" id="site-beehivestartups">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Beehive Startups</span>
+        <span class="site-domain">(<a href="https://www.beehivestartups.com" rel="nofollow">www.beehivestartups.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.beehivestartups.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Beehive Startups they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-beehivestartups" data-text="Hey @beehivestartups Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @beehivestartups
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-boomstartup">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Boom Startup</span>
+        <span class="site-domain">(<a href="https://www.boomstartup.com" rel="nofollow">www.boomstartup.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Boom Startup they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-boomstartup" data-text="Hey @boomstartup Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @boomstartup
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-churchstate1893">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Church &amp; State</span>
+        <span class="site-domain">(<a href="https://www.cs1893.com" rel="nofollow">www.cs1893.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Church &amp; State they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-churchstate1893" data-text="Hey @churchstate1893 Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @churchstate1893
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-epic_ventures">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">EPIC Ventures</span>
+        <span class="site-domain">(<a href="https://www.epicvc.com" rel="nofollow">www.epicvc.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell EPIC Ventures they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-epic_ventures" data-text="Hey @epic_ventures Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @epic_ventures
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-growutah">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Grow Utah Ventures</span>
+        <span class="site-domain">(<a href="https://www.growutahventures.com" rel="nofollow">www.growutahventures.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            A TLS-related error (UNKNOWN_PROTOCOL) occurs when trying to connect.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Grow Utah Ventures they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-growutah" data-text="Hey @growutah Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @growutah
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-holodeckslc">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Holodeck</span>
+        <span class="site-domain">(<a href="https://www.holodeckslc.com" rel="nofollow">www.holodeckslc.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.holodeckslc.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Holodeck they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-holodeckslc" data-text="Hey @holodeckslc Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @holodeckslc
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" >
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Launch Code Accelerator</span>
+        <span class="site-domain">(<a href="https://www.launchcodeaccelerator.com" rel="nofollow">www.launchcodeaccelerator.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.launchcodeaccelerator.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-launchup">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">LaunchUp</span>
+        <span class="site-domain">(<a href="https://www.launchup.org" rel="nofollow">www.launchup.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell LaunchUp they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-launchup" data-text="Hey @launchup Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @launchup
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-marketcampus">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Market Campus</span>
+        <span class="site-domain">(<a href="https://www.marketcampus.com" rel="nofollow">www.marketcampus.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.marketcampus.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Market Campus they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-marketcampus" data-text="Hey @marketcampus Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @marketcampus
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-mercatopartners">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Mercato Partners</span>
+        <span class="site-domain">(<a href="https://www.mercatopartners.com" rel="nofollow">www.mercatopartners.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Mercato Partners they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-mercatopartners" data-text="Hey @mercatopartners Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @mercatopartners
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-nfentrepreneur">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">NorthFront Alliance</span>
+        <span class="site-domain">(<a href="https://www.northfrontalliance.org" rel="nofollow">www.northfrontalliance.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            A TLS-related error (UNKNOWN_PROTOCOL) occurs when trying to connect.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell NorthFront Alliance they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-nfentrepreneur" data-text="Hey @nfentrepreneur Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @nfentrepreneur
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-pandolabs">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">PandoLabs</span>
+        <span class="site-domain">(<a href="https://www.pandolabs.org" rel="nofollow">www.pandolabs.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell PandoLabs they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-pandolabs" data-text="Hey @pandolabs Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @pandolabs
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-peak_ventures">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Peak Ventures</span>
+        <span class="site-domain">(<a href="https://www.peakventures.vc" rel="nofollow">www.peakventures.vc</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Peak Ventures they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-peak_ventures" data-text="Hey @peak_ventures Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @peak_ventures
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" >
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Pelion Venture Partners</span>
+        <span class="site-domain">(<a href="https://www.pelionvp.com" rel="nofollow">www.pelionvp.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.pelionvp.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTTPS site redirects to HTTP.
+        
+        </ul>
+        
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-PetersonPrtnrs">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Peterson Partners</span>
+        <span class="site-domain">(<a href="https://www.petersonpartners.com" rel="nofollow">www.petersonpartners.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Peterson Partners they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-PetersonPrtnrs" data-text="Hey @PetersonPrtnrs Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @PetersonPrtnrs
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-sustainstartups">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Sustainable Startups</span>
+        <span class="site-domain">(<a href="https://www.sustainablestartups.org" rel="nofollow">www.sustainablestartups.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Sustainable Startups they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-sustainstartups" data-text="Hey @sustainstartups Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @sustainstartups
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-uvf">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">U Venture Fund</span>
+        <span class="site-domain">(<a href="https://www.uventurefund.com" rel="nofollow">www.uventurefund.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate not trusted by Mozilla cert store.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell U Venture Fund they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-uvf" data-text="Hey @uvf Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @uvf
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-innovationutah">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">USTAR</span>
+        <span class="site-domain">(<a href="https://www.ustar.org" rel="nofollow">www.ustar.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>connect()</code> to port 443 times out.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell USTAR they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-innovationutah" data-text="Hey @innovationutah Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @innovationutah
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-uvef">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">UVEF</span>
+        <span class="site-domain">(<a href="https://www.uvef.com" rel="nofollow">www.uvef.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell UVEF they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-uvef" data-text="Hey @uvef Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @uvef
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-workhiveslc">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Workhive SLC</span>
+        <span class="site-domain">(<a href="https://www.workhiveslc.com" rel="nofollow">www.workhiveslc.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Workhive SLC they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-workhiveslc" data-text="Hey @workhiveslc Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @workhiveslc
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+<section id="groups">
+  <div class="cat-header">
+    <h2 class="cat-name">Groups, Events, Dev</h2>
+    <a class="cat-name-link" title="Link to this category" href="#groups">¶</a>
+    <div class="cat-counts">
+      <span class="site-grade-bad">6</span>/<span class="site-grade-mediocre">3</span>/<span class="site-grade-good">0</span>
+    </div>
+  </div>
+  <div class="site-category">
+  
+    <div class="site-entry" id="site-devmtn">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">DevMountain</span>
+        <span class="site-domain">(<a href="https://www.devmounta.in" rel="nofollow">www.devmounta.in</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.devmounta.in">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell DevMountain they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-devmtn" data-text="Hey @devmtn Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @devmtn
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-devpointlabs">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">DevPoint Labs</span>
+        <span class="site-domain">(<a href="https://www.devpointlabs.com" rel="nofollow">www.devpointlabs.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell DevPoint Labs they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-devpointlabs" data-text="Hey @devpointlabs Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @devpointlabs
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-hacknightslc">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Hack Night SLC</span>
+        <span class="site-domain">(<a href="https://www.hacknightslc.com" rel="nofollow">www.hacknightslc.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Hack Night SLC they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-hacknightslc" data-text="Hey @hacknightslc Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @hacknightslc
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-opensaltlake">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">OpenSaltLake</span>
+        <span class="site-domain">(<a href="https://www.opensaltlake.org" rel="nofollow">www.opensaltlake.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell OpenSaltLake they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-opensaltlake" data-text="Hey @opensaltlake Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @opensaltlake
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-openwest">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">OpenWest Conference</span>
+        <span class="site-domain">(<a href="https://www.openwest.org" rel="nofollow">www.openwest.org</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.openwest.org">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell OpenWest Conference they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-openwest" data-text="Hey @openwest Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @openwest
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-startfest">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">StartFEST</span>
+        <span class="site-domain">(<a href="https://www.startfestival.com" rel="nofollow">www.startfestival.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.startfestival.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell StartFEST they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-startfest" data-text="Hey @startfest Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @startfest
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-stemutah">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Utah STEM Fest</span>
+        <span class="site-domain">(<a href="https://www.utahstemfest.com" rel="nofollow">www.utahstemfest.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Utah STEM Fest they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-stemutah" data-text="Hey @stemutah Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @stemutah
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-utahtechcouncil">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Utah Tech Council</span>
+        <span class="site-domain">(<a href="https://www.utahtech.org" rel="nofollow">www.utahtech.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Utah Tech Council they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-utahtechcouncil" data-text="Hey @utahtechcouncil Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @utahtechcouncil
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-womentechcncl">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Women Technology Council</span>
+        <span class="site-domain">(<a href="https://www.womentechcouncil.org" rel="nofollow">www.womentechcouncil.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Nothing is listening on port 443.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Women Technology Council they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/tech#site-womentechcncl" data-text="Hey @womentechcncl Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @womentechcncl
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+
+<script>
+window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+</script>
+
+      <footer>
+        UtahWatch is a project by <a href="https://secureutah.org">SecureUtah.org</a>. Last updated <time>2016-02-29 01:04Z</time>.
+      </footer>
+    </div>
+  </body>
+</html>

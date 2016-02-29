@@ -1,0 +1,59 @@
+{
+    "categories": [
+        {
+            "name": "Politicians, Parties",
+            "linkname": "pols",
+            "sites": [
+                {
+                    "name": "Constitution Party of Utah",
+                    "domain": "www.constitutionpartyofutah.com"
+                },
+                {
+                    "name": "Libertarian Party of Utah",
+                    "domain": "www.libertarianutah.org",
+                    "twitter": "utahlp"
+                },
+                {
+                    "name": "Representative Chris Stewart",
+                    "domain": "stewart.house.gov",
+                    "twitter": "stewarforutah"
+                },
+                {
+                    "name": "Representative Jason Chaffetz",
+                    "domain": "chaffetz.house.gov",
+                    "twitter": "jasoninthehouse"
+                },
+                {
+                    "name": "Representative Mia Love",
+                    "domain": "love.house.gov",
+                    "twitter": "miablove"
+                },
+                {
+                    "name": "Representative Rob Bishop",
+                    "domain": "robbishop.house.gov",
+                    "twitter": "reprobbishop"
+                },
+                {
+                    "name": "Senator Mike Lee",
+                    "domain": "lee.senate.gov",
+                    "twitter": "senmikelee"
+                },
+                {
+                    "name": "Senator Orrin Hatch",
+                    "domain": "hatch.senate.gov",
+                    "twitter": "orrinhatch"
+                },
+                {
+                    "name": "Utah Democratic Party",
+                    "domain": "utahdemocrats.org",
+                    "twitter": "utahdemocrats"
+                },
+                {
+                    "name": "Utah Republican Party",
+                    "domain": "utah.gop",
+                    "twitter": "utahgop"
+                }
+            ]
+        }
+    ]
+}

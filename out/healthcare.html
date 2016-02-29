@@ -1,0 +1,926 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="UtahWatch tracks the HTTPS support of websites in Utah.">
+    <meta name="viewport" content="width=800">
+    <title>UtahWatch | Healthcare</title>
+    <link rel="stylesheet" type="text/css" href="/static/main.css">
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    
+<script type="text/javascript">
+(function () {
+function toggleOpen(e) {
+    if (e.target.tagName === "A")
+        return;
+    this.parentNode.classList.toggle("details-open");
+}
+window.addEventListener("load", function onLoad() {
+    var elms = document.getElementsByClassName("site-status-summary");
+    for (var i = 0; i < elms.length; i++) {
+        elms[i].addEventListener("click", toggleOpen);
+    }
+
+    if (location.hash.slice(0, 6) === "#site-") {
+        var e = document.getElementById(location.hash.slice(1));
+        if (e !== null) {
+            e.classList.toggle("details-open");
+        }
+    }
+})
+})();
+</script>
+
+  </head>
+  <body>
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-74339992-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+    <header>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+        
+          <li>
+          
+            <a class="header-nav-link" href="/tech">Tech</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/business">Business</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/legal">Legal</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/financial">Financial</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/media">Media</a>
+          
+          </li>
+        
+          <li>
+          
+            <span class="header-nav-link-current">Healthcare</span>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/politics">Politics</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/education">Education</a>
+          
+          </li>
+        
+          <li>
+          
+            <a class="header-nav-link" href="/civic">Civic</a>
+          
+          </li>
+        
+        </ul>
+      </nav>
+    </header>
+    <div id="content-wrapper">
+      
+
+<h1>UtahWatch - Healthcare </h1>
+<p>UtahWatch tracks the HTTPS support of websites in Utah. Click to show details about a site&rsquo;s HTTPS support. See the <a href="/utahwatch/about">About page</a> for more information.
+
+<p>UtahWatch is a project by <a href="https://secureutah.org">SecureUtah.org</a>.
+
+
+<nav class="main-toc">
+  <ul class="nav-list">
+  
+    <li><a href="#facilities">Facilities &amp; Services</a>
+  
+    <li><a href="#crisis">Crisis Services, Shelters</a>
+  
+  </ul>
+</nav>
+
+
+<section id="facilities">
+  <div class="cat-header">
+    <h2 class="cat-name">Facilities &amp; Services</h2>
+    <a class="cat-name-link" title="Link to this category" href="#facilities">¶</a>
+    <div class="cat-counts">
+      <span class="site-grade-bad">12</span>/<span class="site-grade-mediocre">4</span>/<span class="site-grade-good">0</span>
+    </div>
+  </div>
+  <div class="site-category">
+  
+    <div class="site-entry" id="site-alpinehme">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Alpine Home Medical</span>
+        <span class="site-domain">(<a href="https://www.alpinehomemedical.com" rel="nofollow">www.alpinehomemedical.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.alpinehomemedical.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is set but the <code>max-age</code> is less than 30 days.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Alpine Home Medical they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-alpinehme" data-text="Hey @alpinehme Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @alpinehme
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-brighamcityhosp">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Brigham City Community Hospital</span>
+        <span class="site-domain">(<a href="https://www.brighamcityhospital.com" rel="nofollow">www.brighamcityhospital.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Brigham City Community Hospital they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-brighamcityhosp" data-text="Hey @brighamcityhosp Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @brighamcityhosp
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" >
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">CareSource Home Health &amp; Hospice</span>
+        <span class="site-domain">(<a href="https://www.caresourcehealthcare.com" rel="nofollow">www.caresourcehealthcare.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Nothing is listening on port 443.
+        
+        </ul>
+        
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-emihealth">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">EMI Health</span>
+        <span class="site-domain">(<a href="https://www.emihealth.com" rel="nofollow">www.emihealth.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.emihealth.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell EMI Health they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-emihealth" data-text="Hey @emihealth Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @emihealth
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-intermountain">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Intermountain Healthcare</span>
+        <span class="site-domain">(<a href="https://www.intermountainhealthcare.org" rel="nofollow">www.intermountainhealthcare.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>connect()</code> to port 443 times out.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Intermountain Healthcare they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-intermountain" data-text="Hey @intermountain Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @intermountain
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-jordanvalleymed">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Jordan Valley Medical Center</span>
+        <span class="site-domain">(<a href="https://www.jordanvalleymc.com" rel="nofollow">www.jordanvalleymc.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate not trusted by Mozilla cert store.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Jordan Valley Medical Center they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-jordanvalleymed" data-text="Hey @jordanvalleymed Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @jordanvalleymed
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-lakeviewhosp">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Lakeview Hospital</span>
+        <span class="site-domain">(<a href="https://www.lakeviewhospital.com" rel="nofollow">www.lakeviewhospital.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Lakeview Hospital they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-lakeviewhosp" data-text="Hey @lakeviewhosp Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @lakeviewhosp
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" >
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Merit Medical Systems</span>
+        <span class="site-domain">(<a href="https://www.merit.com" rel="nofollow">www.merit.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.merit.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
+        
+        </ul>
+        
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" >
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Mission Health Services</span>
+        <span class="site-domain">(<a href="https://www.missionhealthservices.org" rel="nofollow">www.missionhealthservices.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Nothing is listening on port 443.
+        
+        </ul>
+        
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-mvhpayson">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Mountain View Hospital</span>
+        <span class="site-domain">(<a href="https://www.mvhpayson.com" rel="nofollow">www.mvhpayson.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Mountain View Hospital they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-mvhpayson" data-text="Hey @mvhpayson Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @mvhpayson
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-ogdenclinic">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Ogden Clinic</span>
+        <span class="site-domain">(<a href="https://www.ogdenclinic.com" rel="nofollow">www.ogdenclinic.com</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.ogdenclinic.com">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Ogden Clinic they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-ogdenclinic" data-text="Hey @ogdenclinic Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @ogdenclinic
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-ogdenregional">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Ogden Regional Medical Center</span>
+        <span class="site-domain">(<a href="https://www.ogdenregional.com" rel="nofollow">www.ogdenregional.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Ogden Regional Medical Center they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-ogdenregional" data-text="Hey @ogdenregional Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @ogdenregional
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" >
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Promise Hospital of Salt Lake</span>
+        <span class="site-domain">(<a href="https://www.promise-saltlake.com" rel="nofollow">www.promise-saltlake.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate not trusted by Mozilla cert store.
+        
+        </ul>
+        
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-southwestvision">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">SouthWest Vision</span>
+        <span class="site-domain">(<a href="https://www.southwestvision.org" rel="nofollow">www.southwestvision.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell SouthWest Vision they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-southwestvision" data-text="Hey @southwestvision Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @southwestvision
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-stmarkshosp">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">St. Mark&#39;s Hospital</span>
+        <span class="site-domain">(<a href="https://www.stmarkshospital.com" rel="nofollow">www.stmarkshospital.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell St. Mark&#39;s Hospital they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-stmarkshosp" data-text="Hey @stmarkshosp Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @stmarkshosp
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-timpanogoshosp">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Timpanogos Regional Hospital</span>
+        <span class="site-domain">(<a href="https://www.timpanogosregionalhospital.com" rel="nofollow">www.timpanogosregionalhospital.com</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Timpanogos Regional Hospital they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-timpanogoshosp" data-text="Hey @timpanogoshosp Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @timpanogoshosp
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+<section id="crisis">
+  <div class="cat-header">
+    <h2 class="cat-name">Crisis Services, Shelters</h2>
+    <a class="cat-name-link" title="Link to this category" href="#crisis">¶</a>
+    <div class="cat-counts">
+      <span class="site-grade-bad">9</span>/<span class="site-grade-mediocre">1</span>/<span class="site-grade-good">0</span>
+    </div>
+  </div>
+  <div class="site-category">
+  
+    <div class="site-entry" >
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">A.C.E.S.</span>
+        <span class="site-domain">(<a href="https://www.acestreatment.org" rel="nofollow">www.acestreatment.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Nothing is listening on port 443.
+        
+        </ul>
+        
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-tweet_dove">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Dove Center</span>
+        <span class="site-domain">(<a href="https://www.dovecenter.org" rel="nofollow">www.dovecenter.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Dove Center they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-tweet_dove" data-text="Hey @tweet_dove Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @tweet_dove
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" >
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">New Horizons Crisis Center</span>
+        <span class="site-domain">(<a href="https://www.centralutahcrisisintervention.org" rel="nofollow">www.centralutahcrisisintervention.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-odysseyhouseut">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Odyssey House</span>
+        <span class="site-domain">(<a href="https://www.odysseyhouse.org" rel="nofollow">www.odysseyhouse.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Odyssey House they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-odysseyhouseut" data-text="Hey @odysseyhouseut Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @odysseyhouseut
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-rescuesaltlake">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Rescue Mission of Salt Lake</span>
+        <span class="site-domain">(<a href="https://www.rescuesaltlake.org" rel="nofollow">www.rescuesaltlake.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate hostname verification fails.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Rescue Mission of Salt Lake they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-rescuesaltlake" data-text="Hey @rescuesaltlake Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @rescuesaltlake
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-safeharborut">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Safe Harbor Crisis Center</span>
+        <span class="site-domain">(<a href="https://www.safeharborhope.org" rel="nofollow">www.safeharborhope.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            Certificate not trusted by Mozilla cert store.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Safe Harbor Crisis Center they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-safeharborut" data-text="Hey @safeharborut Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @safeharborut
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-seekhaven">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Seekhaven</span>
+        <span class="site-domain">(<a href="https://www.seekhaven.org" rel="nofollow">www.seekhaven.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>connect()</code> returns with error WSAECONNRESET.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell Seekhaven they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-seekhaven" data-text="Hey @seekhaven Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @seekhaven
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-svsutah">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">South Valley Services</span>
+        <span class="site-domain">(<a href="https://www.sysutah.org" rel="nofollow">www.sysutah.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            DNS lookup failed.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell South Valley Services they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-svsutah" data-text="Hey @svsutah Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @svsutah
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" id="site-theroadhomeut">
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">The Road Home</span>
+        <span class="site-domain">(<a href="https://www.theroadhome.org" rel="nofollow">www.theroadhome.org</a>)</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.theroadhome.org">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+        <div class="tweet-button-container">
+        
+        Tell The Road Home they should improve their HTTPS support:
+        
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/healthcare#site-theroadhomeut" data-text="Hey @theroadhomeut Why don't you protect your users with great HTTPS? #choosehttps" data-count="horizontal">
+            Tweet @theroadhomeut
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="site-entry" >
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">Utah Domestic Violence Coalition</span>
+        <span class="site-domain">(<a href="https://www.udvc.org" rel="nofollow">www.udvc.org</a>)</span>
+        <span class="site-grade site-grade-bad">Bad</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.udvc.org">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTML page loaded over HTTPS has mixed content.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            <code>Strict-Transport-Security</code> header is not set.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
+        
+        </ul>
+        
+        
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+
+<script>
+window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+</script>
+
+      <footer>
+        UtahWatch is a project by <a href="https://secureutah.org">SecureUtah.org</a>. Last updated <time>2016-02-29 01:04Z</time>.
+      </footer>
+    </div>
+  </body>
+</html>

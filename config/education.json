@@ -1,0 +1,98 @@
+{
+    "categories": [
+        {
+            "name": "Higher Education",
+            "linkname": "highered",
+            "sites": [
+                {
+                    "name": "Brigham Young University",
+                    "domain": "www.byu.edu",
+                    "twitter": "byu"
+                },
+                {
+                    "name": "Dixie State College",
+                    "domain": "www.dixie.edu",
+                    "twitter": "dixiestate"
+                },
+                {
+                    "name": "LDS Business College",
+                    "domain": "www.ldsbc.edu",
+                    "twitter": "myldsbc"
+                },
+                {
+                    "name": "Salt Lake Community College",
+                    "domain": "www.slcc.edu",
+                    "twitter": "saltlakecc"
+                },
+                {
+                    "name": "Snow College",
+                    "domain": "www.snow.edu",
+                    "twitter": "snowcollege"
+                },
+                {
+                    "name": "Southern Utah University",
+                    "domain": "www.suu.edu",
+                    "twitter": "suutbirds"
+                },
+                {
+                    "name": "UHEAA",
+                    "domain": "www.uheaa.org",
+                    "twitter": "uheaa"
+                },
+                {
+                    "name": "University of Utah",
+                    "domain": "www.utah.edu",
+                    "twitter": "uutah"
+                },
+                {
+                    "name": "Utah College of Applied Technology",
+                    "domain": "www.ucat.edu"
+                },
+                {
+                    "name": "Utah Education Network",
+                    "domain": "www.uen.org",
+                    "twitter": "uennews"
+                },
+                {
+                    "name": "Utah Education Savings Plan",
+                    "domain": "www.uesp.org"
+                },
+                {
+                    "name": "Utah State University",
+                    "domain": "www.usu.edu",
+                    "twitter": "usuaggies"
+                },
+                {
+                    "name": "Utah System of Higher Education",
+                    "domain": "www.higheredutah.org",
+                    "twitter": "higheredutah"
+                },
+                {
+                    "name": "Utah Valley University",
+                    "domain": "www.uvu.edu",
+                    "twitter": "uvu"
+                },
+                {
+                    "name": "UtahFutures",
+                    "domain": "www.utahfutures.org",
+                    "twitter": "utahfutures"
+                },
+                {
+                    "name": "Weber State University",
+                    "domain": "www.weber.edu",
+                    "twitter": "weberstateu"
+                },
+                {
+                    "name": "Western Governors University",
+                    "domain": "www.wgu.edu",
+                    "twitter": "wgu"
+                },
+                {
+                    "name": "Westminster College",
+                    "domain": "www.westminstercollege.edu",
+                    "twitter": "westminsterslc"
+                }
+            ]
+        }
+    ]
+}

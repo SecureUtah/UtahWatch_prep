@@ -1,0 +1,97 @@
+{% extends "base.html.jinja" %}
+{% block subtitle %}{{ listing.name }}{% endblock %}
+{% block extra_head %}
+<script type="text/javascript">
+(function () {
+function toggleOpen(e) {
+    if (e.target.tagName === "A")
+        return;
+    this.parentNode.classList.toggle("details-open");
+}
+window.addEventListener("load", function onLoad() {
+    var elms = document.getElementsByClassName("site-status-summary");
+    for (var i = 0; i < elms.length; i++) {
+        elms[i].addEventListener("click", toggleOpen);
+    }
+
+    if (location.hash.slice(0, 6) === "#site-") {
+        var e = document.getElementById(location.hash.slice(1));
+        if (e !== null) {
+            e.classList.toggle("details-open");
+        }
+    }
+})
+})();
+</script>
+{% endblock %}
+
+{% block body %}
+
+<h1>UtahWatch - {{ listing.name }} </h1>
+<p>UtahWatch tracks the HTTPS support of websites in Utah. Click to show details about a site&rsquo;s HTTPS support. See the <a href="/utahwatch/about">About page</a> for more information.
+
+<p>UtahWatch is a project by <a href="https://secureutah.org">SecureUtah.org</a>.
+
+
+<nav class="main-toc">
+  <ul class="nav-list">
+  {% for cat in listing.data.categories %}
+    <li><a href="#{{ cat.linkname }}">{{ cat.name|e }}</a>
+  {% endfor %}
+  </ul>
+</nav>
+
+{% for cat in listing.data.categories %}
+<section id="{{ cat.linkname }}">
+  <div class="cat-header">
+    <h2 class="cat-name">{{ cat.name|e }}</h2>
+    <a class="cat-name-link" title="Link to this category" href="#{{ cat.linkname }}">¶</a>
+    <div class="cat-counts">
+      <span class="site-grade-bad">{{ cat.counts.bad|default(0) }}</span>/<span class="site-grade-mediocre">{{ cat.counts.mediocre|default(0) }}</span>/<span class="site-grade-good">{{ cat.counts.good|default(0) }}</span>
+    </div>
+  </div>
+  <div class="site-category">
+  {% for site in cat.sites %}
+    <div class="site-entry" {% if site.twitter %}id="site-{{ site.twitter }}"{% endif %}>
+      <div class="site-status-summary">
+        <span class="glyphicon site-details-expander"></span>
+        <span class="site-name">{{ site.name|e }}</span>
+        <span class="site-domain">(<a href="https://{{ site.domain }}" rel="nofollow">{{ site.domain }}</a>)</span>
+        <span class="site-grade site-grade-{{ site.status }}">{{ site.status|title }}</span>
+      </div>
+      <div class="site-status-details">
+        <ul class="site-check-list">
+        {% for check in site.checks %}
+          <li class="site-check-item">
+            {% if check.icon == "bad" %}<span class="glyphicon glyphicon-ban-circle site-check-bad"></span>{% else %}<span class="glyphicon glyphicon-ok-circle site-check-good"></span>{% endif %}
+            {{ check.description }}
+        {% endfor %}
+        </ul>
+        {% if site.comment is defined %}
+        <div class="site-comment">
+          {{ site.comment }}
+        </div>
+        {% endif %}
+        {% if site.twitter is defined %}
+        <div class="tweet-button-container">
+        {% if site.status == "good" %}
+        Thank {{ site.name|e }} for providing high quality HTTPS:
+        {% else %}
+        Tell {{ site.name|e }} they should improve their HTTPS support:
+        {% endif %}
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.org/https/utahwatch/{{ listing.shortname }}#site-{{ site.twitter }}" data-text="Hey @{{ site.twitter }} {% if site.status == 'good' %}Thanks for protecting your users with great HTTPS!{% else %}Why don't you protect your users with great HTTPS?{% endif %} #choosehttps" data-count="horizontal">
+            Tweet @{{ site.twitter }}
+          </a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+<script>
+window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+</script>
+{% endblock %}

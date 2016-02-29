@@ -1,0 +1,132 @@
+{
+    "categories": [
+        {
+            "name": "Groups & Orgs",
+            "linkname": "groups",
+            "sites": [
+                {
+                    "name": "Entrepreneur Launch Pad",
+                    "domain": "www.elpnow.org",
+                    "twitter": "launchutah"
+                },
+                {
+                    "name": "Local First Utah",
+                    "domain": "www.localfirst.org",
+                    "twitter": "localfirstutah"
+                },
+                {
+                    "name": "Miller Business Resource Center",
+                    "domain": "www.mbrcslcc.com"
+                },
+                {
+                    "name": "Salt Lake Chamber",
+                    "domain": "www.slchamber.com",
+                    "twitter": "saltlakechamber"
+                },
+                {
+                    "name": "Utah Microenterprise Loan Fund",
+                    "domain": "www.umlf.com"
+                },
+                {
+                    "name": "Utah Small Business Coalition",
+                    "domain": "www.utahsmallbiz.com"
+                },
+                {
+                    "name": "Utah State Chamber of Commerce",
+                    "domain": "www.utahstatechamber.org",
+                    "twitter": "utstatechamber"
+                },
+                {
+                    "name": "Utah Supplier Development Council",
+                    "domain": "www.usdcutah.org"
+                },
+                {
+                    "name": "Utah's Own",
+                    "domain": "www.utahsown.org",
+                    "twitter": "utahsown"
+                },
+                {
+                    "name": "Vest Pocket Business Coalition",
+                    "domain": "www.vestpocket.org"
+                },
+                {
+                    "name": "World Trade Center Utah",
+                    "domain": "www.wtcutah.com",
+                    "twitter": "wtcutah"
+                }
+            ]
+        },
+        {
+            "name": "Companies, Services",
+            "linkname": "companies",
+            "sites": [
+                {
+                    "name": "Cicero Group",
+                    "domain": "www.cicerogroup.com",
+                    "twitter": "cicero_group"
+                },
+                {
+                    "name": "Dan Jones & Associates",
+                    "domain": "www.djasurvey.com"
+                },
+                {
+                    "name": "Domo",
+                    "domain": "www.domo.com",
+                    "twitter": "domotalk"
+                },
+                {
+                    "name": "Dropship Commerce",
+                    "domain": "www.dropship.com",
+                    "twitter": "dropshipcom"
+                },
+                {
+                    "name": "EKR Agency",
+                    "domain": "www.ekragency.com",
+                    "twitter": "ekragency"
+                },
+                {
+                    "name": "International Armoring Corp",
+                    "domain": "www.armormax.com",
+                    "twitter": "armouredcars"
+                },
+                {
+                    "name": "Intrepid Agency",
+                    "domain": "www.intrepidagency.com"
+                },
+                {
+                    "name": "MX Technologies",
+                    "domain": "www.mx.com"
+                },
+                {
+                    "name": "Nuvi",
+                    "domain": "www.nuvi.com",
+                    "twitter": "nuvi"
+                },
+                {
+                    "name": "O.C. Tanner",
+                    "domain": "www.octanner.com",
+                    "twitter": "octanner"
+                },
+                {
+                    "name": "Safe Haven Private Vaults",
+                    "domain": "www.safehavenprivatevaults.com",
+                    "twitter": "safehavenpv"
+                },
+                {
+                    "name": "Tanner",
+                    "domain": "www.tannerco.com",
+                    "twitter": "tannercompany"
+                },
+                {
+                    "name": "Usana Health Sciences",
+                    "domain": "www.usana.com",
+                    "twitter": "usanainc"
+                },
+                {
+                    "name": "Wadsworth Development Group",
+                    "domain": "www.wadsdev.com"
+                }
+            ]
+        }
+    ]
+}

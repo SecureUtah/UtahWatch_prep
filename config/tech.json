@@ -1,0 +1,290 @@
+{
+    "categories": [
+        {
+            "name": "Security",
+            "linkname": "security",
+            "sites": [
+                {
+                    "name": "BSidesSLC",
+                    "domain": "www.bsidesslc.org",
+                    "twitter": "bsidesslc"
+                },
+                {
+                    "name": "DC801",
+                    "domain": "www.dc801.com",
+                    "twitter": "dc801"
+                },
+                {
+                    "name": "Dixon Security",
+                    "domain": "www.dixonsecurity.com",
+                    "twitter": "dixonsecurity"
+                },
+                {
+                    "name": "Eastwind Networks",
+                    "domain": "www.eastwindnetworks.com",
+                    "twitter": "breachdetection"
+                },
+                {
+                    "name": "SAINTCON",
+                    "domain": "www.saintcon.org",
+                    "twitter": "saintcon"
+                },
+                {
+                    "name": "UtahSAINT",
+                    "domain": "www.utahsaint.org",
+                    "twitter": "utahsaintcon"
+                },
+                {
+                    "name": "Vivint",
+                    "domain": "www.vivint.com",
+                    "twitter": "vivint"
+                }
+            ]
+        },
+        {
+            "name": "Web, Software, IT",
+            "linkname": "web",
+            "sites": [
+                {
+                    "name": "Ancestry",
+                    "domain": "www.ancestry.com",
+                    "twitter": "ancestry"
+                },
+                {
+                    "name": "Executech",
+                    "domain": "www.executech.com",
+                    "twitter": "executech"
+                },
+                {
+                    "name": "HireVue",
+                    "domain": "www.hirevue.com",
+                    "twitter": "hirevue"
+                },
+                {
+                    "name": "InsideSales.com",
+                    "domain": "www.insidesales.com",
+                    "twitter": "insidesales"
+                },
+                {
+                    "name": "Instructure",
+                    "domain": "www.instructure.com",
+                    "twitter": "instructure"
+                },
+                {
+                    "name": "MX Technologies",
+                    "domain": "www.mx.com"
+                },
+                {
+                    "name": "Objective Inc",
+                    "domain": "www.objectiveinc.com",
+                    "twitter": "objectiveinc"
+                },
+                {
+                    "name": "Overstock",
+                    "domain": "www.overstock.com",
+                    "twitter": "overstock"
+                },
+                {
+                    "name": "PC Laptops",
+                    "domain": "www.pclaptops.com",
+                    "twitter": "pclaptops"
+                },
+                {
+                    "name": "PluralSight",
+                    "domain": "www.pluralsight.com",
+                    "twitter": "pluralsight"
+                },
+                {
+                    "name": "SquareHook",
+                    "domain": "www.squarehook.com",
+                    "twitter": "squarehookweb"
+                },
+                {
+                    "name": "Third Sun",
+                    "domain": "www.thirdsun.com",
+                    "twitter": "thirdsun"
+                },
+                {
+                    "name": "Truenorthlogic",
+                    "domain": "www.truenorthlogic.com",
+                    "twitter": "truenorthlogic"
+                },
+                {
+                    "name": "Veracity Networks",
+                    "domain": "www.veracitynetworks.com",
+                    "twitter": "veracitynet"
+                },
+                {
+                    "name": "Vérité",
+                    "domain": "www.verite.com",
+                    "twitter": "veriteinc"
+                },
+                {
+                    "name": "ViaWest",
+                    "domain": "www.viawest.com",
+                    "twitter": "viawest_inc"
+                },
+                {
+                    "name": "XMission",
+                    "domain": "www.xmission.com",
+                    "twitter": "xmission"
+                }
+            ]
+        },
+        {
+            "name": "Startups & VC",
+            "linkname": "startups",
+            "sites": [
+                {
+                    "name": "Beehive Startups",
+                    "domain": "www.beehivestartups.com",
+                    "twitter": "beehivestartups"
+                },
+                {
+                    "name": "Boom Startup",
+                    "domain": "www.boomstartup.com",
+                    "twitter": "boomstartup"
+                },
+                {
+                    "name": "Church & State",
+                    "domain": "www.cs1893.com",
+                    "twitter": "churchstate1893"
+                },
+                {
+                    "name": "EPIC Ventures",
+                    "domain": "www.epicvc.com",
+                    "twitter": "epic_ventures"
+                },
+                {
+                    "name": "Grow Utah Ventures",
+                    "domain": "www.growutahventures.com",
+                    "twitter": "growutah"
+                },
+                {
+                    "name": "Holodeck",
+                    "domain": "www.holodeckslc.com",
+                    "twitter": "holodeckslc"
+                },
+                {
+                    "name": "Launch Code Accelerator",
+                    "domain": "www.launchcodeaccelerator.com"
+                },
+                {
+                    "name": "LaunchUp",
+                    "domain": "www.launchup.org",
+                    "twitter": "launchup"
+                },
+                {
+                    "name": "Market Campus",
+                    "domain": "www.marketcampus.com",
+                    "twitter": "marketcampus"
+                },
+                {
+                    "name": "Mercato Partners",
+                    "domain": "www.mercatopartners.com",
+                    "twitter": "mercatopartners"
+                },
+                {
+                    "name": "NorthFront Alliance",
+                    "domain": "www.northfrontalliance.org",
+                    "twitter": "nfentrepreneur"
+                },
+                {
+                    "name": "PandoLabs",
+                    "domain": "www.pandolabs.org",
+                    "twitter": "pandolabs"
+                },
+                {
+                    "name": "Peak Ventures",
+                    "domain": "www.peakventures.vc",
+                    "twitter": "peak_ventures"
+                },
+                {
+                    "name": "Pelion Venture Partners",
+                    "domain": "www.pelionvp.com"
+                },
+                {
+                    "name": "Peterson Partners",
+                    "domain": "www.petersonpartners.com",
+                    "twitter": "PetersonPrtnrs"
+                },
+                {
+                    "name": "Sustainable Startups",
+                    "domain": "www.sustainablestartups.org",
+                    "twitter": "sustainstartups"
+                },
+                {
+                    "name": "U Venture Fund",
+                    "domain": "www.uventurefund.com",
+                    "twitter": "uvf"
+                },
+                {
+                    "name": "USTAR",
+                    "domain": "www.ustar.org",
+                    "twitter": "innovationutah"
+                },
+                {
+                    "name": "UVEF",
+                    "domain": "www.uvef.com",
+                    "twitter": "uvef"
+                },
+                {
+                    "name": "Workhive SLC",
+                    "domain": "www.workhiveslc.com",
+                    "twitter": "workhiveslc"
+                }
+            ]
+        },
+        {
+            "name": "Groups, Events, Dev",
+            "linkname": "groups",
+            "sites": [
+                {
+                    "name": "DevMountain",
+                    "domain": "www.devmounta.in",
+                    "twitter": "devmtn"
+                },
+                {
+                    "name": "DevPoint Labs",
+                    "domain": "www.devpointlabs.com",
+                    "twitter": "devpointlabs"
+                },
+                {
+                    "name": "Hack Night SLC",
+                    "domain": "www.hacknightslc.com",
+                    "twitter": "hacknightslc"
+                },
+                {
+                    "name": "OpenSaltLake",
+                    "domain": "www.opensaltlake.org",
+                    "twitter": "opensaltlake"
+                },
+                {
+                    "name": "OpenWest Conference",
+                    "domain": "www.openwest.org",
+                    "twitter": "openwest"
+                },
+                {
+                    "name": "StartFEST",
+                    "domain": "www.startfestival.com",
+                    "twitter": "startfest"
+                },
+                {
+                    "name": "Utah STEM Fest",
+                    "domain": "www.utahstemfest.com",
+                    "twitter": "stemutah"
+                },
+                {
+                    "name": "Utah Tech Council",
+                    "domain": "www.utahtech.org",
+                    "twitter": "utahtechcouncil"
+                },
+                {
+                    "name": "Women Technology Council",
+                    "domain": "www.womentechcouncil.org",
+                    "twitter": "womentechcncl"
+                }
+            ]
+        }
+    ]
+}

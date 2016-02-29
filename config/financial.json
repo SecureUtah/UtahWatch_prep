@@ -1,0 +1,98 @@
+{
+    "categories": [
+        {
+            "name": "Banks",
+            "linkname": "banks",
+            "sites": [
+                {
+                    "name": "Bank of American Fork",
+                    "domain": "www.bankaf.com",
+                    "twitter": "bankaf"
+                },
+                {
+                    "name": "Bank of Utah",
+                    "domain": "www.bankofutah.com",
+                    "twitter": "bankofutah"
+                },
+                {
+                    "name": "Brighton Bank",
+                    "domain": "www.brightonbank.com",
+                    "twitter": "brighton_bank"
+                },
+                {
+                    "name": "Cache Valley Bank",
+                    "domain": "www.cachevalleybank.com"
+                },
+                {
+                    "name": "Capital Community Bank Utah",
+                    "domain": "www.ccbankutah.com",
+                    "twitter": "capitalcombank"
+                },
+                {
+                    "name": "Central Bank",
+                    "domain": "www.centralbankutah.com"
+                },
+                {
+                    "name": "First National Bank of Layton",
+                    "domain": "www.fnbutah.com",
+                    "twitter": "fnbutah"
+                },
+                {
+                    "name": "First Utah Bank",
+                    "domain": "www.firstutahbank.com",
+                    "twitter": "firstutahbank"
+                },
+                {
+                    "name": "People's Intermountain Bank",
+                    "domain": "www.peoplesutah.com"
+                },
+                {
+                    "name": "State Bank of Southern Utah",
+                    "domain": "www.sbsu.com"
+                },
+                {
+                    "name": "Utah Community Bank",
+                    "domain": "www.utahcommunitybank.com"
+                },
+                {
+                    "name": "Zions Bank",
+                    "domain": "www.zionsbank.com",
+                    "twitter": "zionsbank"
+                }
+            ]
+        },
+        {
+            "name": "Services & Organizations",
+            "linkname": "services",
+            "sites": [
+                {
+                    "name": "Academy Mortgage",
+                    "domain": "www.academymortgage.com",
+                    "twitter": "academymortgage"
+                },
+                {
+                    "name": "Cambridge Financial Center",
+                    "domain": "www.camonline.com"
+                },
+                {
+                    "name": "Paragon Wealth Management",
+                    "domain": "www.paragonwealth.com",
+                    "twitter": "paragonwealth"
+                },
+                {
+                    "name": "Security National Mortgage Company",
+                    "domain": "www.snmc.com",
+                    "twitter": "snmortgage"
+                },
+                {
+                    "name": "Utah Bankers Association",
+                    "domain": "www.uba.org"
+                },
+                {
+                    "name": "Utah Credit Union Assoc",
+                    "domain": "www.utahscreditunions.org"
+                }
+            ]
+        }
+    ]
+}

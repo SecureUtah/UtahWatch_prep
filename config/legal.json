@@ -1,0 +1,88 @@
+{
+    "categories": [
+        {
+            "name": "Law Firms",
+            "linkname": "firms",
+            "sites": [
+                {
+                    "name": "Callister Nebeker & McCullough",
+                    "domain": "www.cnmlaw.com"
+                },
+                {
+                    "name": "Durham Jones & Pinegar",
+                    "domain": "www.djplaw.com",
+                    "twitter": "durhamjones"
+                },
+                {
+                    "name": "Holman Walker",
+                    "domain": "www.holmanwalker.com"
+                },
+                {
+                    "name": "Mudd Law",
+                    "domain": "www.muddlawoffices.com"
+                },
+                {
+                    "name": "Parr Brown",
+                    "domain": "www.parrbrown.com"
+                },
+                {
+                    "name": "Prince, Yeates & Geldzahler",
+                    "domain": "www.princeyeates.com"
+                },
+                {
+                    "name": "Ray Quinney & Nebeker",
+                    "domain": "www.rqn.com"
+                },
+                {
+                    "name": "Snow Christensen & Martineau",
+                    "domain": "www.scmlaw.com"
+                },
+                {
+                    "name": "Trask Britt",
+                    "domain": "www.traskbritt.com"
+                },
+                {
+                    "name": "Workman Nydegger",
+                    "domain": "www.wnlaw.com"
+                }
+            ]
+        },
+        {
+            "name": "Services & Organizations",
+            "linkname": "services",
+            "sites": [
+                {
+                    "name": "Disability Law Center",
+                    "domain": "www.disabilitylawcenter.org",
+                    "twitter": "dlcofut"
+                },
+                {
+                    "name": "Nonprofit Legal Services of Utah",
+                    "domain": "www.nonprofitlegalservices.com"
+                },
+                {
+                    "name": "Open Legal Services",
+                    "domain": "www.openlegalservices.org"
+                },
+                {
+                    "name": "Utah Assoc Criminal Defense Lawyers",
+                    "domain": "www.uacdl.org",
+                    "twitter": "uacdl"
+                },
+                {
+                    "name": "Utah Bar",
+                    "domain": "www.utahbar.org",
+                    "twitter": "utahstatebar"
+                },
+                {
+                    "name": "Utah Crime Victims Legal Clinic",
+                    "domain": "www.utahvictimsclinic.org"
+                },
+                {
+                    "name": "Utah Legal Services",
+                    "domain": "www.utahlegalservices.org"
+                }
+            ]
+        }
+    ]
+}

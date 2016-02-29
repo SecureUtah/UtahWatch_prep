@@ -1,0 +1,168 @@
+{
+    "categories": [
+        {
+            "name": "Safety, Tourism",
+            "linkname": "safety",
+            "sites": [
+                {
+                    "name": "Downtown SLC",
+                    "domain": "www.downtownslc.org",
+                    "twitter": "downtownslc"
+                },
+                {
+                    "name": "GREENbike",
+                    "domain": "www.greenbikeslc.org",
+                    "twitter": "slcbikeshare"
+                },
+                {
+                    "name": "Unified Police Department",
+                    "domain": "www.updsl.org",
+                    "twitter": "updsl"
+                },
+                {
+                    "name": "Utah Peace Officers Association",
+                    "domain": "www.upoa.org"
+                },
+                {
+                    "name": "Utah.com",
+                    "domain": "www.utah.com",
+                    "twitter": "utahdotcom"
+                },
+                {
+                    "name": "Visit Salt Lake",
+                    "domain": "www.visitsaltlake.com",
+                    "twitter": "visitsaltlake"
+                }
+            ]
+        },
+        {
+            "name": "Advocacy, Policy, Outreach",
+            "linkname": "advocacy",
+            "sites": [
+                {
+                    "name": "ACLU Utah",
+                    "domain": "www.acluutah.org",
+                    "twitter": "acluutah"
+                },
+                {
+                    "name": "Digital Citizenship Utah",
+                    "domain": "www.digcitutah.org",
+                    "twitter": "digcitutah"
+                },
+                {
+                    "name": "EPIK",
+                    "domain": "www.epik.org",
+                    "twitter": "epikalliance"
+                },
+                {
+                    "name": "Equality Utah",
+                    "domain": "www.equalityutah.org",
+                    "twitter": "equalityutah"
+                },
+                {
+                    "name": "Libertas Utah",
+                    "domain": "www.libertasutah.org",
+                    "twitter": "libertasutah"
+                },
+                {
+                    "name": "Sutherland Institute",
+                    "domain": "www.sutherlandinstitute.org",
+                    "twitter": "sutherlandinst"
+                },
+                {
+                    "name": "Utah Assoc. of Public Charter Schools",
+                    "domain": "www.utahcharters.org",
+                    "twitter": "utahcharters"
+                },
+                {
+                    "name": "Utah Eagle Forum",
+                    "domain": "www.utaheagleforum.org",
+                    "twitter": "ut_eagle_forum"
+                },
+                {
+                    "name": "Utah Foundation",
+                    "domain": "www.utahfoundation.org",
+                    "twitter": "utahfoundation"
+                },
+                {
+                    "name": "Utah Public Employees' Association",
+                    "domain": "www.upea.net"
+                }
+            ]
+        },
+        {
+            "name": "Churches, Libraries",
+            "linkname": "churches",
+            "sites": [
+                {
+                    "name": "Catholic Diocese of SLC",
+                    "domain": "www.dioslc.org",
+                    "twitter": "diocese_of_slc"
+                },
+                {
+                    "name": "City Church",
+                    "domain": "www.citychurchutah.com",
+                    "twitter": "citychurchutah"
+                },
+                {
+                    "name": "Episcopal Diocese of Utah",
+                    "domain": "www.episcopal-ut.org",
+                    "twitter": "dioceseofutah"
+                },
+                {
+                    "name": "Greek Orthodox Church of SLC ",
+                    "domain": "www.gocslc.org"
+                },
+                {
+                    "name": "LDS Church",
+                    "domain": "www.lds.org",
+                    "twitter": "ldschurch"
+                },
+                {
+                    "name": "Salt Lake Buddhist Temple",
+                    "domain": "www.slbuddhist.org",
+                    "twitter": "slbuddhist"
+                },
+                {
+                    "name": "Salt Lake County Library Services",
+                    "domain": "www.slcolibrary.org",
+                    "twitter": "slcountylibrary"
+                },
+                {
+                    "name": "Salt Lake Public Library",
+                    "domain": "www.slcpl.org",
+                    "twitter": "slcpl"
+                },
+                {
+                    "name": "SLC Jewish Community Center",
+                    "domain": "www.slcjcc.org",
+                    "twitter": "saltlakejcc"
+                },
+                {
+                    "name": "Springville Library",
+                    "domain": "www.springville.org",
+                    "twitter": "springvillecity"
+                },
+                {
+                    "name": "Utah Academic Library Consortium",
+                    "domain": "www.ualc.net"
+                },
+                {
+                    "name": "Utah Educational Library Media Assoc.",
+                    "domain": "www.uelma.org",
+                    "twitter": "uelma_utah"
+                },
+                {
+                    "name": "Utah Islamic Center",
+                    "domain": "www.utislamiccenter.org",
+                    "twitter": "utislamiccenter"
+                },
+                {
+                    "name": "Utah Library Association",
+                    "domain": "www.ula.org",
+                    "twitter": "utahlibassoc"
+                }
+            ]
+        }
+    ]
+}

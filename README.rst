@@ -3,6 +3,8 @@ UtahWatch
 
 UtahWatch tracks the HTTPS support of websites of Utah-based entities. UtahWatch is part of the `SecureUtah.org`_ website.
 
+This repo is for the config files, templates, and scripts that are used to generate the UtahWatch website.  The output files are then moved to a separate repo and served via GitHub Pages.
+
 UtahWatch is a fork of `HTTPSWatch`_. The HTTPSWatch code is available on `GitHub`_ and was originally created by Benjamin Peterson.
 
 
@@ -21,6 +23,6 @@ Once ``check_https.py`` has been run, you can run ``testing_server.py`` to view
 the website at ``localhost:8000``.
 
 
-.. _SecureUtah.org: https://secureutah.org
+.. _SecureUtah.org: http://secureutah.org
 .. _HTTPSWatch: https://httpswatch.com
 .. _GitHub: https://github.com/gutworth/httpswatch

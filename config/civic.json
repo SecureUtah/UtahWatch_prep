@@ -1,42 +1,7 @@
 {
     "categories": [
         {
-            "name": "Safety, Tourism",
-            "linkname": "safety",
-            "sites": [
-                {
-                    "name": "Downtown SLC",
-                    "domain": "www.downtownslc.org",
-                    "twitter": "downtownslc"
-                },
-                {
-                    "name": "GREENbike",
-                    "domain": "www.greenbikeslc.org",
-                    "twitter": "slcbikeshare"
-                },
-                {
-                    "name": "Unified Police Department",
-                    "domain": "www.updsl.org",
-                    "twitter": "updsl"
-                },
-                {
-                    "name": "Utah Peace Officers Association",
-                    "domain": "www.upoa.org"
-                },
-                {
-                    "name": "Utah.com",
-                    "domain": "www.utah.com",
-                    "twitter": "utahdotcom"
-                },
-                {
-                    "name": "Visit Salt Lake",
-                    "domain": "www.visitsaltlake.com",
-                    "twitter": "visitsaltlake"
-                }
-            ]
-        },
-        {
-            "name": "Advocacy, Policy, Outreach",
+            "name": "Advocacy, Policy",
             "linkname": "advocacy",
             "sites": [
                 {
@@ -91,7 +56,7 @@
             ]
         },
         {
-            "name": "Churches, Libraries",
+            "name": "Churches",
             "linkname": "churches",
             "sites": [
                 {
@@ -124,6 +89,22 @@
                     "twitter": "slbuddhist"
                 },
                 {
+                    "name": "SLC Jewish Community Center",
+                    "domain": "www.slcjcc.org",
+                    "twitter": "saltlakejcc"
+                },
+                {
+                    "name": "Utah Islamic Center",
+                    "domain": "www.utislamiccenter.org",
+                    "twitter": "utislamiccenter"
+                }
+            ]
+        },
+        {
+            "name": "Libraries",
+            "linkname": "libraries",
+            "sites": [
+                {
                     "name": "Salt Lake County Library Services",
                     "domain": "www.slcolibrary.org",
                     "twitter": "slcountylibrary"
@@ -132,11 +113,6 @@
                     "name": "Salt Lake Public Library",
                     "domain": "www.slcpl.org",
                     "twitter": "slcpl"
-                },
-                {
-                    "name": "SLC Jewish Community Center",
-                    "domain": "www.slcjcc.org",
-                    "twitter": "saltlakejcc"
                 },
                 {
                     "name": "Springville Library",
@@ -153,14 +129,78 @@
                     "twitter": "uelma_utah"
                 },
                 {
-                    "name": "Utah Islamic Center",
-                    "domain": "www.utislamiccenter.org",
-                    "twitter": "utislamiccenter"
-                },
-                {
                     "name": "Utah Library Association",
                     "domain": "www.ula.org",
                     "twitter": "utahlibassoc"
+                }
+            ]
+        },
+        {
+            "name": "Safety",
+            "linkname": "safety",
+            "sites": [
+                {
+                    "name": "Professional Fire Fighters of Utah",
+                    "domain": "www.pffu.org"
+                },
+                {
+                    "name": "Salt Lake County Sheriff's Office",
+                    "domain": "www.slsheriff.org"
+                },
+                {
+                    "name": "Unified Police Department",
+                    "domain": "www.updsl.org",
+                    "twitter": "updsl"
+                },
+                {
+                    "name": "Utah Chiefs of Police Association",
+                    "domain": "www.utahchiefs.org"
+                },
+                {
+                    "name": "Utah Peace Officers Association",
+                    "domain": "www.upoa.org"
+                },
+                {
+                    "name": "Utah Sheriffs' Association",
+                    "domain": "www.utahsheriffs.org"
+                },
+                {
+                    "name": "Utah State Fire Chiefs Association",
+                    "domain": "www.utahfirechiefs.org"
+                },
+                {
+                    "name": "Utah State Fire Fighters' Association",
+                    "domain": "www.fireassociation.com"
+                }
+            ]
+        },
+        {
+            "name": "Tourism",
+            "linkname": "tourism",
+            "sites": [
+                {
+                    "name": "Downtown SLC",
+                    "domain": "www.downtownslc.org",
+                    "twitter": "downtownslc"
+                },
+                {
+                    "name": "Utah Office of Tourism",
+                    "domain": "www.visitutah.com",
+                    "twitter": "visitutah"
+                },
+                {
+                    "name": "Utah Tourism Industry Association",
+                    "domain": "www.utahtourism.org"
+                },
+                {
+                    "name": "Utah.com",
+                    "domain": "www.utah.com",
+                    "twitter": "utahdotcom"
+                },
+                {
+                    "name": "Visit Salt Lake",
+                    "domain": "www.visitsaltlake.com",
+                    "twitter": "visitsaltlake"
                 }
             ]
         }

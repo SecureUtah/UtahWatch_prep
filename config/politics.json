@@ -1,18 +1,9 @@
 {
     "categories": [
         {
-            "name": "Politicians, Parties",
-            "linkname": "pols",
+            "name": "Politicians",
+            "linkname": "politicians",
             "sites": [
-                {
-                    "name": "Constitution Party of Utah",
-                    "domain": "www.constitutionpartyofutah.com"
-                },
-                {
-                    "name": "Libertarian Party of Utah",
-                    "domain": "www.libertarianutah.org",
-                    "twitter": "utahlp"
-                },
                 {
                     "name": "Representative Chris Stewart",
                     "domain": "stewart.house.gov",
@@ -42,6 +33,21 @@
                     "name": "Senator Orrin Hatch",
                     "domain": "hatch.senate.gov",
                     "twitter": "orrinhatch"
+                }
+            ]
+        },
+        {
+            "name": "Parties",
+            "linkname": "parties",
+            "sites": [
+                {
+                    "name": "Constitution Party of Utah",
+                    "domain": "www.constitutionpartyofutah.com"
+                },
+                {
+                    "name": "Libertarian Party of Utah",
+                    "domain": "www.libertarianutah.org",
+                    "twitter": "utahlp"
                 },
                 {
                     "name": "Utah Democratic Party",

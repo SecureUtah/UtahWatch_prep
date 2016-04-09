@@ -8,35 +8,37 @@
 <h2>About</h2>
 <p>UtahWatch tracks the HTTPS support of websites of Utah-based businesses and organizations.  It does not track the websites of entities that have a presence in Utah but are headquartered elsewhere.
 
-<p>It is not practical to track every website in Utah. Although the goal is to have all websites move to HTTPS some editorial decisions must be made. The hope is that if the sites listed here have high quality HTTPS implementations then the others will follow.
+<p>It is not practical to track every website in Utah. Although the goal is to have all websites move to HTTPS some editorial decisions have been made. The hope is that if the sites listed here have high quality HTTPS implementations then the others will follow.
 
-<p>UtahWatch is a project by <a href="https://secureutah.org">SecureUtah.org</a> and is a fork of <a href="https://httpswatch.com">HTTPSWatch.com</a>. 	This is a work in progress.  Please send all suggestions, revisions, and feedback to: choose+tracking@secureutah.org
+<p>UtahWatch is a project by <a href="http://secureutah.org" target="_blank">SecureUtah.org</a> and is a fork of <a href="https://httpswatch.com" target="_blank">HTTPSWatch.com</a>.
 
-
+<p>This is a work in progress.  Please send feedback to: choose+utahwatch@secureutah.org
+<br>
+<br>
 <h2>Ratings</h2>
 <p>UtahWatch assigns every tracked site a rating approximating the quality of its HTTPS support. If a verified TLS connection cannot be established or no page can be loaded over TLS, the site is given the <span class="site-grade-bad">Bad</span> rating. The <span class="site-grade-mediocre">Mediocre</span> rating means a TLS connection can be established but there are quality issues with the site&rsquo;s implementation of HTTPS (e.g. the HTTP site doesn&rsquo;t redirect to HTTPS or the <code>Strict-Transport-Security</code> header isn&rsquo;t set). If everything looks good, a <span class="site-grade-good">Good</span> rating is given.
-
-
+<br>
+<br>
 <h2>Limitations</h2>
-<p>Some sites which UtahWatch rates as <span class="site-grade-mediocre">Mediocre</span> are actually unusable in a browser. This is mostly due to <a href="https://developer.mozilla.org/en-US/docs/Security/MixedContent">mixed content</a>, which UtahWatch doesn&rsquo;t always detect.
-<p>Aside from the basic hostname verification checks, UtahWatch doesn&rsquo;t attempt to evaluate the quality of the TLS connection. However, the grade the <a href="https://www.ssllabs.com/ssltest/">SSL Labs server TLS testing tool</a> assigns is provided for each site.
-
-
+<p>Some sites which UtahWatch rates as <span class="site-grade-mediocre">Mediocre</span> are actually unusable in a browser. This is mostly due to <a href="https://developer.mozilla.org/en-US/docs/Security/MixedContent" target="_blank">mixed content</a>, which UtahWatch doesn&rsquo;t always detect.
+<p>Aside from the basic hostname verification checks, UtahWatch doesn&rsquo;t attempt to evaluate the quality of the TLS connection. Please use the provided <a href="https://www.ssllabs.com/ssltest/" target="_blank">SSL Labs server TLS testing tool</a> link for each website to view an in-depth assessment.
+<br>
+<br>
 <h2>How to Properly Setup HTTPS</h2>
-<p>Please see this list of <a href="https://secureutah.org/https/resources">Resources</a> for assistance with deploying and configuring HTTPS.
-
-
+<p>Please see this list of <a href="https://secureutah.github.io/resources.html" target="_blank">Resources</a> for assistance with deploying, configuring, and testing HTTPS.
+<br>
+<br>
 <h2>Code</h2>
-<p>The code for UtahWatch is available on <a href="https://github.com/cuanticosec/utahwatch">GitHub</a> and pull requests are welcome.
-
-
+<p>The code for UtahWatch is available on <a href="https://github.com/SecureUtah/UtahWatch_prep" target="_blank">GitHub</a> and pull requests with sufficient documentation will be considered.
+<br>
+<br>
 <h2>Credits</h2>
-<p>UtahWatch was created and is currently maintained by Jon Jarvis.
+<p>UtahWatch was created and is maintained by Jon Jarvis.
 
-<p>UtahWatch is a fork of HTTPSWatch. The HTTPSWatch project code is available on <a href="https://github.com/gutworth/httpswatch">GitHub</a> and was originally created by Benjamin Peterson.
+<p>UtahWatch is a fork of HTTPSWatch. The HTTPSWatch project code is available on <a href="https://github.com/gutworth/httpswatch" target="_blank">GitHub</a> and was originally created by Benjamin Peterson.  Many thanks to Benjamin for giving  approval to fork his code and for providing some early assistance!
 
-<p>HTTPSWatch was inspired by Alex Gaynor&rsquo;s <a href="https://alexgaynor.net/2014/nov/12/state-of-news-tls/">blog</a> <a href="https://alexgaynor.net/2014/dec/30/state-of-news-tls-part-ii/">posts</a> about news sites&rsquo; HTTPS support.
+<p>HTTPSWatch was inspired by Alex Gaynor&rsquo;s <a href="https://alexgaynor.net/2014/nov/12/state-of-news-tls/" target="_blank">blog</a> <a href="https://alexgaynor.net/2014/dec/30/state-of-news-tls-part-ii/" target="_blank">posts</a> about news sites&rsquo; HTTPS support.
 
-<p>Many thanks to <a href="https://www.qualys.com/">Qualys</a> and <a href="http://blog.ivanristic.com/">Ivan Ristić</a> for creating the excellent <a href="https://www.ssllabs.com/ssltest/">SSL Server Test</a> that produces the results used here.
+<p>Much respect to <a href="https://www.qualys.com/" target="_blank">Qualys</a> and <a href="http://blog.ivanristic.com/" target="_blank">Ivan Ristić</a> for creating the excellent <a href="https://www.ssllabs.com/ssltest/" target="_blank">SSL Server Test</a> that has become the de facto standard for testing HTTPS.
 
 {% endblock %}

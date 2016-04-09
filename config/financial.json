@@ -62,7 +62,7 @@
             ]
         },
         {
-            "name": "Services & Organizations",
+            "name": "Services, Orgs",
             "linkname": "services",
             "sites": [
                 {
@@ -73,6 +73,11 @@
                 {
                     "name": "Cambridge Financial Center",
                     "domain": "www.camonline.com"
+                },
+                {
+                    "name": "Diversified Insurance Group",
+                    "domain": "www.diversifiedinsurance.com",
+                    "twitter": "diversified_ins"
                 },
                 {
                     "name": "Paragon Wealth Management",

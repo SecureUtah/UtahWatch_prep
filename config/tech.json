@@ -10,6 +10,11 @@
                     "twitter": "bsidesslc"
                 },
                 {
+                    "name": "Datashield",
+                    "domain": "www.datashieldprotect.com",
+                    "twitter": "datashieldslc"
+                },
+                {
                     "name": "DC801",
                     "domain": "www.dc801.com",
                     "twitter": "dc801"
@@ -28,6 +33,11 @@
                     "name": "SAINTCON",
                     "domain": "www.saintcon.org",
                     "twitter": "saintcon"
+                },
+                {
+                    "name": "Secuvant",
+                    "domain": "www.secuvant.com",
+                    "twitter": "secuvant"
                 },
                 {
                     "name": "UtahSAINT",
@@ -54,6 +64,11 @@
                     "name": "Executech",
                     "domain": "www.executech.com",
                     "twitter": "executech"
+                },
+                {
+                    "name": "Experticity",
+                    "domain": "www.experticity.com",
+                    "twitter": "experticity"
                 },
                 {
                     "name": "HireVue",
@@ -95,6 +110,11 @@
                     "twitter": "pluralsight"
                 },
                 {
+                    "name": "SaltStack",
+                    "domain": "www.saltstack.com",
+                    "twitter": "saltstack"
+                },
+                {
                     "name": "SquareHook",
                     "domain": "www.squarehook.com",
                     "twitter": "squarehookweb"
@@ -132,7 +152,7 @@
             ]
         },
         {
-            "name": "Startups & VC",
+            "name": "Startups, VC",
             "linkname": "startups",
             "sites": [
                 {
@@ -144,6 +164,10 @@
                     "name": "Boom Startup",
                     "domain": "www.boomstartup.com",
                     "twitter": "boomstartup"
+                },
+                {
+                    "name": "Campus Founders Fund",
+                    "domain": "www.campusfounders.com"
                 },
                 {
                     "name": "Church & State",
@@ -164,10 +188,6 @@
                     "name": "Holodeck",
                     "domain": "www.holodeckslc.com",
                     "twitter": "holodeckslc"
-                },
-                {
-                    "name": "Launch Code Accelerator",
-                    "domain": "www.launchcodeaccelerator.com"
                 },
                 {
                     "name": "LaunchUp",
@@ -236,8 +256,8 @@
             ]
         },
         {
-            "name": "Groups, Events, Dev",
-            "linkname": "groups",
+            "name": "Dev, Events, Orgs",
+            "linkname": "dev",
             "sites": [
                 {
                     "name": "DevMountain",
@@ -278,6 +298,11 @@
                     "name": "Utah Tech Council",
                     "domain": "www.utahtech.org",
                     "twitter": "utahtechcouncil"
+                },
+                {
+                    "name": "V School",
+                    "domain": "www.vschool.io",
+                    "twitter": "vschoolhq"
                 },
                 {
                     "name": "Women Technology Council",

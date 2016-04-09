@@ -1,0 +1,145 @@
+{
+    "categories": [
+        {
+            "name": "City",
+            "linkname": "city",
+            "sites": [
+                {
+                    "name": "Bountiful",
+                    "domain": "bountifulutah.gov",
+                    "twitter": "bountifulcityut"
+                },
+                {
+                    "name": "Draper",
+                    "domain": "www.draper.ut.us",
+                    "twitter": "drapercity"
+                },
+                {
+                    "name": "Layton",
+                    "domain": "www.laytoncity.org",
+                    "twitter": "laytonfyi"
+                },
+                {
+                    "name": "Lehi",
+                    "domain": "www.lehi-ut.gov",
+                    "twitter": "lehicity"
+                },
+                {
+                    "name": "Logan",
+                    "domain": "www.loganutah.org",
+                    "twitter": "cityoflogan"
+                },
+                {
+                    "name": "Ogden",
+                    "domain": "www.ogdencity.com",
+                    "twitter": "ogdencityutah"
+                },
+                {
+                    "name": "Orem",
+                    "domain": "www.orem.org",
+                    "twitter": "orem_city"
+                },
+                {
+                    "name": "Provo",
+                    "domain": "www.provo.org",
+                    "twitter": "provocity"
+                },
+                {
+                    "name": "Salt Lake City",
+                    "domain": "www.slcgov.com",
+                    "twitter": "slccouncil"
+                },
+                {
+                    "name": "South Jordan",
+                    "domain": "www.southjordanutah.gov",
+                    "twitter": "southjordanut"
+                },
+                {
+                    "name": "St. George",
+                    "domain": "www.sgcity.org",
+                    "twitter": "cityofstgeorge"
+                },
+                {
+                    "name": "Taylorsville",
+                    "domain": "www.taylorsvilleut.gov",
+                    "twitter": "tvilleut"
+                },
+                {
+                    "name": "West Jordan",
+                    "domain": "www.wjordan.com",
+                    "twitter": "citywestjordan"
+                },
+                {
+                    "name": "West Valley City",
+                    "domain": "www.wvc-ut.gov",
+                    "twitter": "wvcut"
+                }
+            ]
+        },
+        {
+            "name": "County",
+            "linkname": "county",
+            "sites": [
+                {
+                    "name": "Cache County",
+                    "domain": "www.cachecounty.org",
+                    "twitter": "cachecounty"
+                },
+                {
+                    "name": "Davis County",
+                    "domain": "www.daviscountyutah.gov"
+                },
+                {
+                    "name": "Iron County",
+                    "domain": "www.ironcounty.net",
+                    "twitter": "ironcounty"
+                },
+                {
+                    "name": "Salt Lake County",
+                    "domain": "www.slco.org"
+                },
+                {
+                    "name": "Weber County",
+                    "domain": "www.webercountyutah.gov",
+                    "twitter": "webercounty"
+                }
+            ]
+        },
+        {
+            "name": "State, Other",
+            "linkname": "state",
+            "sites": [
+                {
+                    "name": "State of Utah",
+                    "domain": "utah.gov",
+                    "twitter": "utahgov"
+                },
+                {
+                    "name": "Utah Courts",
+                    "domain": "www.utcourts.gov",
+                    "twitter": "utahstatecourts"
+                },
+                {
+                    "name": "Utah Fire Info",
+                    "domain": "www.utahfireinfo.gov",
+                    "twitter": "utahwildfire"
+                },
+                {
+                    "name": "Utah Lake Commission",
+                    "domain": "www.utahlake.gov",
+                    "twitter": "utahlake"
+                },
+                {
+                    "name": "Utah League of Cities and Towns",
+                    "domain": "www.ulct.org",
+                    "twitter": "ulctcitycafe"
+                },
+                {
+                    "name": "Utah Local Governments Trust",
+                    "domain": "www.utahtrust.gov",
+                    "twitter": "utahtrust"
+                }
+            ]
+        }
+    ]
+}

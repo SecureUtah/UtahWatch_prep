@@ -10,6 +10,11 @@
                     "twitter": "byu"
                 },
                 {
+                    "name": "Davis Applied Technical College",
+                    "domain": "www.datc.edu",
+                    "twitter": "mydatc"
+                },
+                {
                     "name": "Dixie State College",
                     "domain": "www.dixie.edu",
                     "twitter": "dixiestate"
@@ -35,11 +40,6 @@
                     "twitter": "suutbirds"
                 },
                 {
-                    "name": "UHEAA",
-                    "domain": "www.uheaa.org",
-                    "twitter": "uheaa"
-                },
-                {
                     "name": "University of Utah",
                     "domain": "www.utah.edu",
                     "twitter": "uutah"
@@ -49,33 +49,14 @@
                     "domain": "www.ucat.edu"
                 },
                 {
-                    "name": "Utah Education Network",
-                    "domain": "www.uen.org",
-                    "twitter": "uennews"
-                },
-                {
-                    "name": "Utah Education Savings Plan",
-                    "domain": "www.uesp.org"
-                },
-                {
                     "name": "Utah State University",
                     "domain": "www.usu.edu",
                     "twitter": "usuaggies"
                 },
                 {
-                    "name": "Utah System of Higher Education",
-                    "domain": "www.higheredutah.org",
-                    "twitter": "higheredutah"
-                },
-                {
                     "name": "Utah Valley University",
                     "domain": "www.uvu.edu",
                     "twitter": "uvu"
-                },
-                {
-                    "name": "UtahFutures",
-                    "domain": "www.utahfutures.org",
-                    "twitter": "utahfutures"
                 },
                 {
                     "name": "Weber State University",
@@ -91,6 +72,36 @@
                     "name": "Westminster College",
                     "domain": "www.westminstercollege.edu",
                     "twitter": "westminsterslc"
+                }
+            ]
+        },
+        {
+            "name": "Services, Orgs",
+            "linkname": "services",
+            "sites": [
+                {
+                    "name": "UHEAA",
+                    "domain": "www.uheaa.org",
+                    "twitter": "uheaa"
+                },
+                {
+                    "name": "Utah Education Network",
+                    "domain": "www.uen.org",
+                    "twitter": "uennews"
+                },
+                {
+                    "name": "Utah Education Savings Plan",
+                    "domain": "www.uesp.org"
+                },
+                {
+                    "name": "Utah System of Higher Education",
+                    "domain": "www.higheredutah.org",
+                    "twitter": "higheredutah"
+                },
+                {
+                    "name": "UtahFutures",
+                    "domain": "www.utahfutures.org",
+                    "twitter": "utahfutures"
                 }
             ]
         }

@@ -10,32 +10,36 @@
             "shortname": "business"
         },
         {
-            "name": "Legal",
-            "shortname": "legal"
-        },
-        {
-            "name": "Financial",
-            "shortname": "financial"
-        },
-        {
-            "name": "Media",
-            "shortname": "media"
-        },
-        {
-            "name": "Healthcare",
-            "shortname": "healthcare"
-        },
-        {
-            "name": "Politics",
-            "shortname": "politics"
+            "name": "Civic",
+            "shortname": "civic"
         },
         {
             "name": "Education",
             "shortname": "education"
         },
         {
-            "name": "Civic",
-            "shortname": "civic"
+            "name": "Financial",
+            "shortname": "financial"
+        },
+        {
+            "name": "Government",
+            "shortname": "government"
+        },
+        {
+            "name": "Healthcare",
+            "shortname": "healthcare"
+        },
+        {
+            "name": "Legal",
+            "shortname": "legal"
+        },
+        {
+            "name": "Media",
+            "shortname": "media"
+        },
+        {
+            "name": "Politics",
+            "shortname": "politics"
         }
     ]
 }

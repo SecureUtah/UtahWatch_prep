@@ -1,18 +1,13 @@
 {
     "categories": [
         {
-            "name": "Facilities & Services",
-            "linkname": "facilities",
+            "name": "Companies, Services",
+            "linkname": "companies",
             "sites": [
                 {
                     "name": "Alpine Home Medical",
                     "domain": "www.alpinehomemedical.com",
                     "twitter": "alpinehme"
-                },
-                {
-                    "name": "Brigham City Community Hospital",
-                    "domain": "www.brighamcityhospital.com",
-                    "twitter": "brighamcityhosp"
                 },
                 {
                     "name": "CareSource Home Health & Hospice",
@@ -24,21 +19,6 @@
                     "twitter": "emihealth"
                 },
                 {
-                    "name": "Intermountain Healthcare",
-                    "domain": "www.intermountainhealthcare.org",
-                    "twitter": "intermountain"
-                },
-                {
-                    "name": "Jordan Valley Medical Center",
-                    "domain": "www.jordanvalleymc.com",
-                    "twitter": "jordanvalleymed"
-                },
-                {
-                    "name": "Lakeview Hospital",
-                    "domain": "www.lakeviewhospital.com",
-                    "twitter": "lakeviewhosp"
-                },
-                {
                     "name": "Merit Medical Systems",
                     "domain": "www.merit.com"
                 },
@@ -47,38 +27,9 @@
                     "domain": "www.missionhealthservices.org"
                 },
                 {
-                    "name": "Mountain View Hospital",
-                    "domain": "www.mvhpayson.com",
-                    "twitter": "mvhpayson"
-                },
-                {
-                    "name": "Ogden Clinic",
-                    "domain": "www.ogdenclinic.com",
-                    "twitter": "ogdenclinic"
-                },
-                {
-                    "name": "Ogden Regional Medical Center",
-                    "domain": "www.ogdenregional.com",
-                    "twitter": "ogdenregional"
-                },
-                {
-                    "name": "Promise Hospital of Salt Lake",
-                    "domain": "www.promise-saltlake.com"
-                },
-                {
                     "name": "SouthWest Vision",
                     "domain": "www.southwestvision.org",
                     "twitter": "southwestvision"
-                },
-                {
-                    "name": "St. Mark's Hospital",
-                    "domain": "www.stmarkshospital.com",
-                    "twitter": "stmarkshosp"
-                },
-                {
-                    "name": "Timpanogos Regional Hospital",
-                    "domain": "www.timpanogosregionalhospital.com",
-                    "twitter": "timpanogoshosp"
                 }
             ]
         },
@@ -132,6 +83,61 @@
                 {
                     "name": "Utah Domestic Violence Coalition",
                     "domain": "www.udvc.org"
+                }
+            ]
+        },
+        {
+            "name": "Hospitals, Clinics",
+            "linkname": "facilities",
+            "sites": [
+                {
+                    "name": "Brigham City Community Hospital",
+                    "domain": "www.brighamcityhospital.com",
+                    "twitter": "brighamcityhosp"
+                },
+                {
+                    "name": "Intermountain Healthcare",
+                    "domain": "www.intermountainhealthcare.org",
+                    "twitter": "intermountain"
+                },
+                {
+                    "name": "Jordan Valley Medical Center",
+                    "domain": "www.jordanvalleymc.com",
+                    "twitter": "jordanvalleymed"
+                },
+                {
+                    "name": "Lakeview Hospital",
+                    "domain": "www.lakeviewhospital.com",
+                    "twitter": "lakeviewhosp"
+                },
+                {
+                    "name": "Mountain View Hospital",
+                    "domain": "www.mvhpayson.com",
+                    "twitter": "mvhpayson"
+                },
+                {
+                    "name": "Ogden Clinic",
+                    "domain": "www.ogdenclinic.com",
+                    "twitter": "ogdenclinic"
+                },
+                {
+                    "name": "Ogden Regional Medical Center",
+                    "domain": "www.ogdenregional.com",
+                    "twitter": "ogdenregional"
+                },
+                {
+                    "name": "Promise Hospital of Salt Lake",
+                    "domain": "www.promise-saltlake.com"
+                },
+                {
+                    "name": "St. Mark's Hospital",
+                    "domain": "www.stmarkshospital.com",
+                    "twitter": "stmarkshosp"
+                },
+                {
+                    "name": "Timpanogos Regional Hospital",
+                    "domain": "www.timpanogosregionalhospital.com",
+                    "twitter": "timpanogoshosp"
                 }
             ]
         }

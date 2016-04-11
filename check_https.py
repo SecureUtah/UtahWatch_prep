@@ -19,7 +19,7 @@ import requests
 from lxml import etree, html
 
 PARALLELISM = 8
-USER_AGENT = "UtahWatch Bot / contact: choose_at_secureutah.org"
+USER_AGENT = "UtahWatch_Bot / contact: choose+bot_at_secureutah.org"
 ANALYTICS = """<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -194,13 +194,13 @@ def check_https_page(info):
             if m is not None:
                 info.sts = int(m.group(1))
                 if info.sts >= 2592000:
-                    good_sts.succeed("<code>Strict-Transport-Security</code> header is set with a long <code>max-age</code> directive.")
+                    good_sts.succeed("HTTP <code>Strict-Transport-Security</code> header is set with a long <code>max-age</code> directive.")
                 else:
-                    good_sts.fail("<code>Strict-Transport-Security</code> header is set but the <code>max-age</code> is less than 30 days.")
+                    good_sts.fail("HTTP <code>Strict-Transport-Security</code> header is set but the <code>max-age</code> is less than 30 days.")
             else:
-                good_sts.fail("<code>Strict-Transport-Security</code> header doesn't contain a <code>max-age</code> directive.")
+                good_sts.fail("HTTP <code>Strict-Transport-Security</code> header doesn't contain a <code>max-age</code> directive.")
         else:
-            good_sts.fail("<code>Strict-Transport-Security</code> header is not set.")
+            good_sts.fail("HTTP <code>Strict-Transport-Security</code> header is not set. (<a href=\"https://https.cio.gov/hsts/\" target=\"_blank\">About HSTS</a>)")
         info.mixed_content = tree is not None and has_mixed_content(tree)
         if info.mixed_content:
             https_load.fail("The HTML page loaded over HTTPS has mixed content.")

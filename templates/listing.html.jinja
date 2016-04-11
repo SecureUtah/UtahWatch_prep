@@ -28,7 +28,7 @@ window.addEventListener("load", function onLoad() {
 {% block body %}
 
 <h1>UtahWatch - {{ listing.name }} </h1>
-<p>UtahWatch tracks the HTTPS support of websites in Utah. Click the Plus icon next to each name to show details about that site&rsquo;s HTTPS support and then send them a tweet about how they rate. If you don't see the Twitter button you probably have an ad-blocker installed.
+<p>UtahWatch tracks the HTTPS support of websites in Utah. Click the Plus icon next to each name to see the details of that site&rsquo;s HTTPS support and to send them a tweet about how they rate. If you don't see the Twitter button then your browser or your ad-blocker has prevented it from loading.
 
 <p>Please see the <a href="about.html">About page</a> for more information.
 <br>
@@ -56,7 +56,7 @@ window.addEventListener("load", function onLoad() {
       <div class="site-status-summary">
         <span class="glyphicon site-details-expander"></span>
         <span class="site-name">{{ site.name|e }}</span>
-        <span class="site-domain">(<a href="https://{{ site.domain }}" rel="nofollow" target="_blank">{{ site.domain }}</a>)</span>
+        <span class="site-domain">(<a href="https://{{ site.domain }}" target="_blank">{{ site.domain }}</a>)</span>
         <span class="site-grade site-grade-{{ site.status }}">{{ site.status|title }}</span>
       </div>
       <div class="site-status-details">

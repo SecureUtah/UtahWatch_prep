@@ -7,7 +7,7 @@
     <title>UtahWatch | About</title>
     <link rel="stylesheet" type="text/css" href="static/main.css">
     <link rel="icon" type="image/png" href="static/favicon.png">
-
+    
   </head>
   <body>
     <script>
@@ -23,122 +23,121 @@ ga('send', 'pageview');
     <header>
       <nav class="header-nav">
         <ul class="header-nav-list">
-
+        
           <li>
-
+          
             <a class="header-nav-link" href="tech.html">Tech</a>
-
+          
           </li>
-
+        
           <li>
-
+          
             <a class="header-nav-link" href="business.html">Business</a>
-
+          
           </li>
-
+        
           <li>
-
+          
             <a class="header-nav-link" href="civic.html">Civic</a>
-
+          
           </li>
-
+        
           <li>
-
+          
             <a class="header-nav-link" href="education.html">Education</a>
-
+          
           </li>
-
+        
           <li>
-
+          
             <a class="header-nav-link" href="financial.html">Financial</a>
-
+          
           </li>
-
+        
           <li>
-
+          
             <a class="header-nav-link" href="government.html">Government</a>
-
+          
           </li>
-
+        
           <li>
-
+          
             <a class="header-nav-link" href="healthcare.html">Healthcare</a>
-
+          
           </li>
-
+        
           <li>
-
+          
             <a class="header-nav-link" href="legal.html">Legal</a>
-
+          
           </li>
-
+        
           <li>
-
+          
             <a class="header-nav-link" href="media.html">Media</a>
-
+          
           </li>
-
+        
           <li>
-
+          
             <a class="header-nav-link" href="politics.html">Politics</a>
-
+          
           </li>
-
+        
         </ul>
       </nav>
     </header>
     <div id="content-wrapper">
+      
 
-
-<h1>Welcome to UtahWatch</h1>
+<h1>Welcome to UtahWatch!</h1>
 
 <h2>About</h2>
 <p>UtahWatch tracks the HTTPS support of websites for Utah-based businesses and organizations.  It does not track the websites of entities that have a presence in Utah but are headquartered elsewhere.
 
 <p>It is not practical to track every website in Utah. Although the goal is to have all websites move to HTTPS some editorial decisions have been made. The hope is that if the sites listed here have high quality HTTPS implementations then the others will follow.
 
-<p>UtahWatch is a project by <a href="http://secureutah.org" target="_blank">SecureUtah.org</a> and is a fork of <a href="https://httpswatch.com" target="_blank">HTTPSWatch.com</a>.
+<p>This is a work in progress. Ratings will be produced at least once a month and websites could be added or removed at any time.
 
-<p>This is a work in progress.  Please send feedback to: <code>choose+utahwatch@secureutah.org</code>
-<br>
+<p>UtahWatch is a project by <a href="http://secureutah.org" target="_blank">SecureUtah.org</a>.    
+
+<p>Please send feedback to: <code>choose+utahwatch@secureutah.org</code>
 <br>
 <br>
 <h2>Ratings</h2>
-<p>UtahWatch assigns every tracked site a rating approximating the quality of its HTTPS support. If a verified TLS connection cannot be established or no page can be loaded over TLS, the site is given the <span class="site-grade-bad">Bad</span> rating. The <span class="site-grade-mediocre">Mediocre</span> rating means a TLS connection can be established but there are quality issues with the site&rsquo;s implementation of HTTPS (e.g. the HTTP site doesn&rsquo;t redirect to HTTPS or the <code>Strict-Transport-Security</code> header isn&rsquo;t set). If everything is in place, a <span class="site-grade-good">Good</span> rating is given.
+<p>UtahWatch assigns every tracked site a rating approximating the quality of its HTTPS support. If a verified TLS connection cannot be established or no page can be loaded over TLS, the site is given a <span class="site-grade-bad"><strong>Bad</strong></span> rating. A <span class="site-grade-mediocre"><strong>Mediocre</strong></span> rating means a TLS connection can be established but there are quality issues with the site&rsquo;s implementation (the HTTP site doesn&rsquo;t redirect to HTTPS and/or the <code>Strict-Transport-Security</code> header isn&rsquo;t set). If all those conditions are met, a <span class="site-grade-good"><strong>Good</strong></span> rating is given.
+
+<p>UtahWatch uses a simple rating scale to make it easy to see if basic HTTPS has been achieved and to provoke change if it has not.  Strong, modern HTTPS has lots of moving parts (as evidenced by the reports from <a href="https://www.ssllabs.com/ssltest/" target="_blank">SSL Labs</a> and <a href="https://securityheaders.io" target="_blank">SecurityHeaders.io</a>) and a <span class="site-grade-good"><strong>Good</strong></span> rating here does not necessarily mean that a website's configuration work is complete.
 <br>
 <br>
 <h2>Missing HSTS = Mediocre</h2>
-<p>Many of the sites that receive a <span class="site-grade-mediocre">Mediocre</span> rating are only missing the HTTP <code>Strict-Transport-Security</code> header and have otherwise good HTTPS. The HSTS header is a vital component of helping visitors reach a website securely.  Implementing HTTPS is not something that should be done piecemeal - without HSTS it is still possible for an attacker to intercept web traffic and prevent users from connecting over HTTPS. Thus, websites will not be rated <span class="site-grade-good">Good</span> unless they include HSTS.
+<p>Many of the sites that receive a <span class="site-grade-mediocre"><strong>Mediocre</strong></span> rating are only missing the HTTP <code>Strict-Transport-Security</code> header. The HSTS header has become a vital component of helping visitors reach a website securely.  Implementing HTTPS is not something that should be done piecemeal - without HSTS it is still possible for an attacker to intercept web traffic and prevent users from connecting over HTTPS. Thus, websites will not be rated <span class="site-grade-good"><strong>Good</strong></span> unless they include HSTS.
 
 <p>Please read more about the importance of using HTTP Strict Transport Security:
 <ul type="square">
-<li>Troy Hunt <a href="http://www.troyhunt.com/2015/06/understanding-http-strict-transport.html" target="_blank">illustrated</a> how he strips HTTPS from websites that are missing HSTS.</li>
+<li>Troy Hunt <a href="http://www.troyhunt.com/2015/06/understanding-http-strict-transport.html" target="_blank">illustrated</a> how HTTPS can be stripped from websites that are missing HSTS.</li>
 <li>Netcraft revealed <a href="http://news.netcraft.com/archives/2016/03/17/95-of-https-servers-vulnerable-to-trivial-mitm-attacks.html" target="_blank">how 95% of HTTPS websites lack HSTS</a>, allowing MITM attacks.</li>
 <li>Including <a href="https://https.cio.gov/hsts/" target="_blank">HSTS</a> is part of the White House OMB's <a href="https://https.cio.gov/" target="_blank">requirements</a> for federal websites.</li>
 <li>Mozilla's guide for web developers <a href="https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security" target="_blank">provides further details</a> for implementing HSTS.</li>
 </ul>
 <br>
 <h2>Limitations</h2>
-<p>Some sites which UtahWatch rates as <span class="site-grade-mediocre">Mediocre</span> are actually unusable in a browser. This is mostly due to <a href="https://developer.mozilla.org/en-US/docs/Security/MixedContent" target="_blank">mixed content</a>, which UtahWatch doesn&rsquo;t always detect.
+<p>Some sites which UtahWatch rates as <span class="site-grade-mediocre"><strong>Mediocre</strong></span> might actually be unusable in a browser. This is mostly due to <a href="https://developer.mozilla.org/en-US/docs/Security/MixedContent" target="_blank">mixed content</a>, which UtahWatch doesn&rsquo;t always detect.
 <p>Aside from the basic hostname verification checks, UtahWatch doesn&rsquo;t attempt to evaluate the quality of the TLS connection. Please use the provided <a href="https://www.ssllabs.com/ssltest/" target="_blank">SSL Labs server TLS testing tool</a> link for each website to view an in-depth assessment.  Please use <a href="https://securityheaders.io" target="_blank">SecurityHeaders.io</a> to evaluate a site's HTTP response headers.
-
-<br>
 <br>
 <br>
 <h2>How to Properly Set Up HTTPS</h2>
 <p>SecureUtah.org provides <a href="https://secureutah.github.io/resources.html" target="_blank">a list of resources</a> for deploying, configuring, and testing HTTPS.
 <br>
 <br>
-<br>
 <h2>Code</h2>
 <p>The code for UtahWatch is available on <a href="https://github.com/SecureUtah/UtahWatch_prep" target="_blank">GitHub</a>.
-<br>
 <br>
 <br>
 <h2>Credits</h2>
 <p>UtahWatch was created and is maintained by Jon Jarvis. He fights for the users!
 
-<p>UtahWatch is a fork of HTTPSWatch. The HTTPSWatch project code is available on <a href="https://github.com/gutworth/httpswatch" target="_blank">GitHub</a> and was originally created by Benjamin Peterson.  Many thanks to Benjamin for giving approval to fork his code and for providing early assistance to get UtahWatch going!
+<p>UtahWatch is a fork of <a href="https://httpswatch.com" target="_blank">HTTPSWatch.com</a>. The HTTPSWatch project code is available on <a href="https://github.com/gutworth/httpswatch" target="_blank">GitHub</a> and was originally created by Benjamin Peterson.  Many thanks to Benjamin for giving approval to fork his code and for providing early assistance to get UtahWatch going!
 
 <p>HTTPSWatch was inspired by Alex Gaynor&rsquo;s <a href="https://alexgaynor.net/2014/nov/12/state-of-news-tls/" target="_blank">blog</a> <a href="https://alexgaynor.net/2014/dec/30/state-of-news-tls-part-ii/" target="_blank">posts</a> about news sites&rsquo; HTTPS support.
 
@@ -146,7 +145,7 @@ ga('send', 'pageview');
 
 
       <footer>
-        UtahWatch is a project by <a href="http://secureutah.org" target="_blank">SecureUtah.org</a>. Last updated <time>2016-04-11 17:42Z</time>.
+        UtahWatch is a project by <a href="http://secureutah.org" target="_blank">SecureUtah.org</a>. Last updated <time>2016-04-12 21:26Z</time>.
       </footer>
     </div>
   </body>

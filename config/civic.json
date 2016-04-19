@@ -136,45 +136,6 @@
             ]
         },
         {
-            "name": "Safety",
-            "linkname": "safety",
-            "sites": [
-                {
-                    "name": "Professional Fire Fighters of Utah",
-                    "domain": "www.pffu.org"
-                },
-                {
-                    "name": "Salt Lake County Sheriff's Office",
-                    "domain": "www.slsheriff.org"
-                },
-                {
-                    "name": "Unified Police Department",
-                    "domain": "www.updsl.org",
-                    "twitter": "updsl"
-                },
-                {
-                    "name": "Utah Chiefs of Police Association",
-                    "domain": "www.utahchiefs.org"
-                },
-                {
-                    "name": "Utah Peace Officers Association",
-                    "domain": "www.upoa.org"
-                },
-                {
-                    "name": "Utah Sheriffs' Association",
-                    "domain": "www.utahsheriffs.org"
-                },
-                {
-                    "name": "Utah State Fire Chiefs Association",
-                    "domain": "www.utahfirechiefs.org"
-                },
-                {
-                    "name": "Utah State Fire Fighters' Association",
-                    "domain": "www.fireassociation.com"
-                }
-            ]
-        },
-        {
             "name": "Tourism",
             "linkname": "tourism",
             "sites": [
@@ -187,6 +148,11 @@
                     "name": "Utah Office of Tourism",
                     "domain": "www.visitutah.com",
                     "twitter": "visitutah"
+                },
+                {
+                    "name": "Utah Ski & Snowboard Association",
+                    "domain": "www.skiutah.com",
+                    "twitter": "skiutah"
                 },
                 {
                     "name": "Utah Tourism Industry Association",

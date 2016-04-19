@@ -73,6 +73,11 @@
                     "name": "West Valley City",
                     "domain": "www.wvc-ut.gov",
                     "twitter": "wvcut"
+                },
+                {
+                    "name": "Utah League of Cities and Towns",
+                    "domain": "www.ulct.org",
+                    "twitter": "ulctcitycafe"
                 }
             ]
         },
@@ -106,7 +111,7 @@
             ]
         },
         {
-            "name": "State, Other",
+            "name": "State, Orgs, Services",
             "linkname": "state",
             "sites": [
                 {
@@ -120,24 +125,63 @@
                     "twitter": "utahstatecourts"
                 },
                 {
-                    "name": "Utah Fire Info",
-                    "domain": "www.utahfireinfo.gov",
-                    "twitter": "utahwildfire"
-                },
-                {
                     "name": "Utah Lake Commission",
                     "domain": "www.utahlake.gov",
                     "twitter": "utahlake"
                 },
                 {
-                    "name": "Utah League of Cities and Towns",
-                    "domain": "www.ulct.org",
-                    "twitter": "ulctcitycafe"
-                },
-                {
                     "name": "Utah Local Governments Trust",
                     "domain": "www.utahtrust.gov",
                     "twitter": "utahtrust"
+                },
+                {
+                    "name": "Utah Transit Authority",
+                    "domain": "www.rideuta.com",
+                    "twitter": "rideuta"
+                }
+            ]
+        },
+        {
+            "name": "Safety",
+            "linkname": "safety",
+            "sites": [
+                {
+                    "name": "Professional Fire Fighters of Utah",
+                    "domain": "www.pffu.org"
+                },
+                {
+                    "name": "Salt Lake County Sheriff's Office",
+                    "domain": "www.slsheriff.org"
+                },
+                {
+                    "name": "Unified Police Department",
+                    "domain": "www.updsl.org",
+                    "twitter": "updsl"
+                },
+                {
+                    "name": "Utah Chiefs of Police Association",
+                    "domain": "www.utahchiefs.org"
+                },
+                {
+                    "name": "Utah Fire Info",
+                    "domain": "www.utahfireinfo.gov",
+                    "twitter": "utahwildfire"
+                },
+                {
+                    "name": "Utah Peace Officers Association",
+                    "domain": "www.upoa.org"
+                },
+                {
+                    "name": "Utah Sheriffs' Association",
+                    "domain": "www.utahsheriffs.org"
+                },
+                {
+                    "name": "Utah State Fire Chiefs Association",
+                    "domain": "www.utahfirechiefs.org"
+                },
+                {
+                    "name": "Utah State Fire Fighters' Association",
+                    "domain": "www.fireassociation.com"
                 }
             ]
         }

@@ -113,8 +113,8 @@ ga('send', 'pageview');
     <div id="content-wrapper">
       
 
-<h1>UtahWatch - Tech </h1>
-<p>UtahWatch tracks the HTTPS support of websites in Utah. Click the Plus icon next to each name to see the details of that site&rsquo;s HTTPS support and to send them a tweet about how they rate. If you don't see the Twitter button then your browser or your ad-blocker has prevented it from loading.
+<h1>UtahWatch: Tech </h1>
+<p>UtahWatch tracks the HTTPS support of websites in Utah. Click the Plus icon next to each name to see the details of that site&rsquo;s HTTPS support and to send them a Tweet about their rating. If you don't see the Twitter button then your browser or your ad-blocker has probably prevented it from loading.
 
 <p>Please see the <a href="about.html">About page</a> for more information.
 <br>
@@ -139,7 +139,7 @@ ga('send', 'pageview');
     <h2 class="cat-name">Security</h2>
     <a class="cat-name-link" title="Link to this category" href="#security">¶</a>
     <div class="cat-counts">
-      <span class="site-grade-bad">5</span>/<span class="site-grade-mediocre">2</span>/<span class="site-grade-good">2</span>
+      <span class="site-grade-bad">4</span>/<span class="site-grade-mediocre">3</span>/<span class="site-grade-good">2</span>
     </div>
   </div>
   <div class="site-category">
@@ -177,7 +177,7 @@ ga('send', 'pageview');
         
         Tell BSidesSLC they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-bsidesslc" data-text=".@bsidesslc If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-bsidesslc" data-text=".@bsidesslc  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @bsidesslc
           </a>
         </div>
@@ -206,7 +206,7 @@ ga('send', 'pageview');
         
         Tell Datashield they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-datashieldslc" data-text=".@datashieldslc If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-datashieldslc" data-text=".@datashieldslc  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @datashieldslc
           </a>
         </div>
@@ -235,7 +235,7 @@ ga('send', 'pageview');
         
         Tell DC801 they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-dc801" data-text=".@dc801 If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-dc801" data-text=".@dc801  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @dc801
           </a>
         </div>
@@ -264,7 +264,7 @@ ga('send', 'pageview');
         
         Tell Dixon Security they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-dixonsecurity" data-text=".@dixonsecurity If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-dixonsecurity" data-text=".@dixonsecurity  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @dixonsecurity
           </a>
         </div>
@@ -277,14 +277,26 @@ ga('send', 'pageview');
         <span class="glyphicon site-details-expander"></span>
         <span class="site-name">Eastwind Networks</span>
         <span class="site-domain">(<a href="https://www.eastwindnetworks.com" target="_blank">www.eastwindnetworks.com</a>)</span>
-        <span class="site-grade site-grade-bad">Bad</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
       </div>
       <div class="site-status-details">
         <ul class="site-check-list">
         
           <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.eastwindnetworks.com" target="_blank">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            DNS lookup failed.
+            HTTP <code>Strict-Transport-Security</code> header is not set. (<a href="https://https.cio.gov/hsts/" target="_blank">About HSTS</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTTP site returns an error status (403) on request.
         
         </ul>
         
@@ -293,7 +305,7 @@ ga('send', 'pageview');
         
         Tell Eastwind Networks they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-breachdetection" data-text=".@breachdetection If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-breachdetection" data-text=".@breachdetection  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @breachdetection
           </a>
         </div>
@@ -334,7 +346,7 @@ ga('send', 'pageview');
         
         Thank SAINTCON for providing high quality HTTPS:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-saintcon" data-text=".@saintcon Thank you for protecting your users with great HTTPS! #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-saintcon" data-text=".@saintcon  Thank you for protecting your website visitors with great HTTPS! " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @saintcon
           </a>
         </div>
@@ -363,7 +375,7 @@ ga('send', 'pageview');
         
         Tell Secuvant they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-secuvant" data-text=".@secuvant If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-secuvant" data-text=".@secuvant  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @secuvant
           </a>
         </div>
@@ -404,7 +416,7 @@ ga('send', 'pageview');
         
         Thank UtahSAINT for providing high quality HTTPS:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-utahsaintcon" data-text=".@utahsaintcon Thank you for protecting your users with great HTTPS! #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-utahsaintcon" data-text=".@utahsaintcon  Thank you for protecting your website visitors with great HTTPS! " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @utahsaintcon
           </a>
         </div>
@@ -445,7 +457,7 @@ ga('send', 'pageview');
         
         Tell Vivint they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-vivint" data-text=".@vivint If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-vivint" data-text=".@vivint  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @vivint
           </a>
         </div>
@@ -491,7 +503,7 @@ ga('send', 'pageview');
         
         Tell Ancestry they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-ancestry" data-text=".@ancestry If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-ancestry" data-text=".@ancestry  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @ancestry
           </a>
         </div>
@@ -532,7 +544,7 @@ ga('send', 'pageview');
         
         Tell Executech they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-executech" data-text=".@executech If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-executech" data-text=".@executech  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @executech
           </a>
         </div>
@@ -573,7 +585,7 @@ ga('send', 'pageview');
         
         Tell Experticity they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-experticity" data-text=".@experticity If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-experticity" data-text=".@experticity  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @experticity
           </a>
         </div>
@@ -614,7 +626,7 @@ ga('send', 'pageview');
         
         Tell HireVue they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-hirevue" data-text=".@hirevue If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-hirevue" data-text=".@hirevue  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @hirevue
           </a>
         </div>
@@ -655,7 +667,7 @@ ga('send', 'pageview');
         
         Tell InsideSales.com they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-insidesales" data-text=".@insidesales If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-insidesales" data-text=".@insidesales  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @insidesales
           </a>
         </div>
@@ -696,7 +708,7 @@ ga('send', 'pageview');
         
         Tell Instructure they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-instructure" data-text=".@instructure If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-instructure" data-text=".@instructure  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @instructure
           </a>
         </div>
@@ -748,7 +760,7 @@ ga('send', 'pageview');
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> to port 443 times out.
+            Certificate not trusted by Mozilla cert store.
         
         </ul>
         
@@ -757,7 +769,7 @@ ga('send', 'pageview');
         
         Tell Objective Inc they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-objectiveinc" data-text=".@objectiveinc If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-objectiveinc" data-text=".@objectiveinc  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @objectiveinc
           </a>
         </div>
@@ -790,7 +802,7 @@ ga('send', 'pageview');
         
         Tell Overstock they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-overstock" data-text=".@overstock If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-overstock" data-text=".@overstock  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @overstock
           </a>
         </div>
@@ -831,7 +843,7 @@ ga('send', 'pageview');
         
         Tell PC Laptops they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-pclaptops" data-text=".@pclaptops If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-pclaptops" data-text=".@pclaptops  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @pclaptops
           </a>
         </div>
@@ -872,7 +884,7 @@ ga('send', 'pageview');
         
         Tell PluralSight they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-pluralsight" data-text=".@pluralsight If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-pluralsight" data-text=".@pluralsight  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @pluralsight
           </a>
         </div>
@@ -913,7 +925,7 @@ ga('send', 'pageview');
         
         Tell SaltStack they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-saltstack" data-text=".@saltstack If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-saltstack" data-text=".@saltstack  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @saltstack
           </a>
         </div>
@@ -954,7 +966,7 @@ ga('send', 'pageview');
         
         Tell SquareHook they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-squarehookweb" data-text=".@squarehookweb If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-squarehookweb" data-text=".@squarehookweb  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @squarehookweb
           </a>
         </div>
@@ -995,7 +1007,7 @@ ga('send', 'pageview');
         
         Tell Third Sun they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-thirdsun" data-text=".@thirdsun If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-thirdsun" data-text=".@thirdsun  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @thirdsun
           </a>
         </div>
@@ -1024,7 +1036,7 @@ ga('send', 'pageview');
         
         Tell Truenorthlogic they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-truenorthlogic" data-text=".@truenorthlogic If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-truenorthlogic" data-text=".@truenorthlogic  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @truenorthlogic
           </a>
         </div>
@@ -1065,7 +1077,7 @@ ga('send', 'pageview');
         
         Tell Veracity Networks they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-veracitynet" data-text=".@veracitynet If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-veracitynet" data-text=".@veracitynet  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @veracitynet
           </a>
         </div>
@@ -1106,7 +1118,7 @@ ga('send', 'pageview');
         
         Tell Vérité they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-veriteinc" data-text=".@veriteinc If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-veriteinc" data-text=".@veriteinc  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @veriteinc
           </a>
         </div>
@@ -1147,7 +1159,7 @@ ga('send', 'pageview');
         
         Tell ViaWest they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-viawest_inc" data-text=".@viawest_inc If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-viawest_inc" data-text=".@viawest_inc  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @viawest_inc
           </a>
         </div>
@@ -1188,7 +1200,7 @@ ga('send', 'pageview');
         
         Tell XMission they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-xmission" data-text=".@xmission If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-xmission" data-text=".@xmission  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @xmission
           </a>
         </div>
@@ -1242,7 +1254,7 @@ ga('send', 'pageview');
         
         Tell Beehive Startups they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-beehivestartups" data-text=".@beehivestartups If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-beehivestartups" data-text=".@beehivestartups  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @beehivestartups
           </a>
         </div>
@@ -1271,7 +1283,7 @@ ga('send', 'pageview');
         
         Tell Boom Startup they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-boomstartup" data-text=".@boomstartup If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-boomstartup" data-text=".@boomstartup  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @boomstartup
           </a>
         </div>
@@ -1320,7 +1332,7 @@ ga('send', 'pageview');
         
         Tell Church &amp; State they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-churchstate1893" data-text=".@churchstate1893 If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-churchstate1893" data-text=".@churchstate1893  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @churchstate1893
           </a>
         </div>
@@ -1349,7 +1361,7 @@ ga('send', 'pageview');
         
         Tell EPIC Ventures they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-epic_ventures" data-text=".@epic_ventures If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-epic_ventures" data-text=".@epic_ventures  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @epic_ventures
           </a>
         </div>
@@ -1378,7 +1390,7 @@ ga('send', 'pageview');
         
         Tell Grow Utah Ventures they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-growutah" data-text=".@growutah If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-growutah" data-text=".@growutah  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @growutah
           </a>
         </div>
@@ -1419,7 +1431,7 @@ ga('send', 'pageview');
         
         Tell Holodeck they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-holodeckslc" data-text=".@holodeckslc If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-holodeckslc" data-text=".@holodeckslc  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @holodeckslc
           </a>
         </div>
@@ -1448,7 +1460,7 @@ ga('send', 'pageview');
         
         Tell LaunchUp they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-launchup" data-text=".@launchup If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-launchup" data-text=".@launchup  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @launchup
           </a>
         </div>
@@ -1489,7 +1501,7 @@ ga('send', 'pageview');
         
         Tell Market Campus they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-marketcampus" data-text=".@marketcampus If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-marketcampus" data-text=".@marketcampus  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @marketcampus
           </a>
         </div>
@@ -1518,7 +1530,7 @@ ga('send', 'pageview');
         
         Tell Mercato Partners they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-mercatopartners" data-text=".@mercatopartners If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-mercatopartners" data-text=".@mercatopartners  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @mercatopartners
           </a>
         </div>
@@ -1547,7 +1559,7 @@ ga('send', 'pageview');
         
         Tell NorthFront Alliance they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-nfentrepreneur" data-text=".@nfentrepreneur If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-nfentrepreneur" data-text=".@nfentrepreneur  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @nfentrepreneur
           </a>
         </div>
@@ -1576,7 +1588,7 @@ ga('send', 'pageview');
         
         Tell PandoLabs they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-pandolabs" data-text=".@pandolabs If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-pandolabs" data-text=".@pandolabs  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @pandolabs
           </a>
         </div>
@@ -1605,7 +1617,7 @@ ga('send', 'pageview');
         
         Tell Peak Ventures they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-peak_ventures" data-text=".@peak_ventures If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-peak_ventures" data-text=".@peak_ventures  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @peak_ventures
           </a>
         </div>
@@ -1658,7 +1670,7 @@ ga('send', 'pageview');
         
         Tell Peterson Partners they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-PetersonPrtnrs" data-text=".@PetersonPrtnrs If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-PetersonPrtnrs" data-text=".@PetersonPrtnrs  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @PetersonPrtnrs
           </a>
         </div>
@@ -1687,7 +1699,7 @@ ga('send', 'pageview');
         
         Tell Sustainable Startups they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-sustainstartups" data-text=".@sustainstartups If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-sustainstartups" data-text=".@sustainstartups  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @sustainstartups
           </a>
         </div>
@@ -1716,7 +1728,7 @@ ga('send', 'pageview');
         
         Tell U Venture Fund they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-uvf" data-text=".@uvf If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-uvf" data-text=".@uvf  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @uvf
           </a>
         </div>
@@ -1745,7 +1757,7 @@ ga('send', 'pageview');
         
         Tell USTAR they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-innovationutah" data-text=".@innovationutah If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-innovationutah" data-text=".@innovationutah  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @innovationutah
           </a>
         </div>
@@ -1774,7 +1786,7 @@ ga('send', 'pageview');
         
         Tell UVEF they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-uvef" data-text=".@uvef If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-uvef" data-text=".@uvef  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @uvef
           </a>
         </div>
@@ -1803,7 +1815,7 @@ ga('send', 'pageview');
         
         Tell Workhive SLC they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-workhiveslc" data-text=".@workhiveslc If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-workhiveslc" data-text=".@workhiveslc  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @workhiveslc
           </a>
         </div>
@@ -1857,7 +1869,7 @@ ga('send', 'pageview');
         
         Tell DevMountain they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-devmtn" data-text=".@devmtn If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-devmtn" data-text=".@devmtn  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @devmtn
           </a>
         </div>
@@ -1886,7 +1898,7 @@ ga('send', 'pageview');
         
         Tell DevPoint Labs they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-devpointlabs" data-text=".@devpointlabs If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-devpointlabs" data-text=".@devpointlabs  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @devpointlabs
           </a>
         </div>
@@ -1915,7 +1927,7 @@ ga('send', 'pageview');
         
         Tell Hack Night SLC they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-hacknightslc" data-text=".@hacknightslc If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-hacknightslc" data-text=".@hacknightslc  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @hacknightslc
           </a>
         </div>
@@ -1956,7 +1968,7 @@ ga('send', 'pageview');
         
         Tell OpenSaltLake they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-opensaltlake" data-text=".@opensaltlake If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-opensaltlake" data-text=".@opensaltlake  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @opensaltlake
           </a>
         </div>
@@ -1997,7 +2009,7 @@ ga('send', 'pageview');
         
         Tell OpenWest Conference they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-openwest" data-text=".@openwest If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-openwest" data-text=".@openwest  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @openwest
           </a>
         </div>
@@ -2038,7 +2050,7 @@ ga('send', 'pageview');
         
         Tell StartFEST they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-startfest" data-text=".@startfest If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-startfest" data-text=".@startfest  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @startfest
           </a>
         </div>
@@ -2067,7 +2079,7 @@ ga('send', 'pageview');
         
         Tell Utah STEM Fest they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-stemutah" data-text=".@stemutah If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-stemutah" data-text=".@stemutah  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @stemutah
           </a>
         </div>
@@ -2096,7 +2108,7 @@ ga('send', 'pageview');
         
         Tell Utah Tech Council they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-utahtechcouncil" data-text=".@utahtechcouncil If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-utahtechcouncil" data-text=".@utahtechcouncil  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @utahtechcouncil
           </a>
         </div>
@@ -2125,7 +2137,7 @@ ga('send', 'pageview');
         
         Tell V School they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-vschoolhq" data-text=".@vschoolhq If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-vschoolhq" data-text=".@vschoolhq  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @vschoolhq
           </a>
         </div>
@@ -2154,7 +2166,7 @@ ga('send', 'pageview');
         
         Tell Women Technology Council they should improve their HTTPS support:
         
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-womentechcncl" data-text=".@womentechcncl If you want to protect your users, your HTTPS needs an upgrade. #httpsutah  " data-count="horizontal">
+          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/tech.html#site-womentechcncl" data-text=".@womentechcncl  Any plans to better protect your users by improving your website's HTTPS? " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
             Tweet @womentechcncl
           </a>
         </div>
@@ -2171,7 +2183,7 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 </script>
 
       <footer>
-        UtahWatch is a project by <a href="http://secureutah.org" target="_blank">SecureUtah.org</a>. Last updated <time>2016-04-19 21:18Z</time>.
+        UtahWatch is a project by <a href="http://secureutah.org" target="_blank">SecureUtah.org</a>. Last updated <time>2016-04-20 07:30Z</time>.
       </footer>
     </div>
   </body>

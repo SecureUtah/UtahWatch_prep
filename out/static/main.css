@@ -69,26 +69,26 @@ code {
 header {
     width: 100%;
     margin: 0px;
-    padding: 10px 0;
-    font-size: 12pt;
+    padding: 20px 0;
+    font-size: 14pt;
     text-align: center;
     border: 1px solid #D4D4D4;
     border-width: 0px 0px 1px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-    background-color: #000000;
+    background-color: #262626;
 }
 .header-nav-link, header-nav-link {
-    color: #c6ffb3;
+    color: #d817d8;
     text-decoration: none;
 }
 .header-nav-link-current {
     cursor: default;
-    color: #d817d8;
+    color: #66ff33;
     font-size: 120%;
     font-weight: bold;
 }
 .header-nav-link:hover {
-    text-decoration: underline;
+    color: #46daa0;
 }
 .header-nav-list > li {
     display: inline-block;

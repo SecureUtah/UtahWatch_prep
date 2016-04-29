@@ -27,10 +27,10 @@ window.addEventListener("load", function onLoad() {
 
 {% block body %}
 
-<h1>UtahWatch: {{ listing.name }} </h1>
-<p>UtahWatch evaluates and rates the HTTPS support of almost 300 Utah websites.
-<p>Click the Plus icon next to each name to see the details of that site&rsquo;s HTTPS support and to send them a Tweet about their rating. If you don't see the Twitter button then your browser or ad-blocker has probably prevented it from loading.
-<p>Please see the <a href="about.html">About page</a> for more information.
+<h1>UtahWatch:&nbsp;&nbsp;{{ listing.name }}</h1>
+<p>UtahWatch evaluates and rates the <strong>HTTPS support</strong> of almost 300 Utah websites.
+<p>Click the Plus icon next to a name to see the reasons for that website's rating.
+<p>The <a href="about.html">About page</a> explains the rating criteria and this project.
 
 <br>
 <br>
@@ -57,7 +57,7 @@ window.addEventListener("load", function onLoad() {
       <div class="site-status-summary">
         <span class="glyphicon site-details-expander"></span>
         <span class="site-name">{{ site.name|e }}</span>
-        <span class="site-domain">(<a href="https://{{ site.domain }}" target="_blank">{{ site.domain }}</a>)</span>
+        <span class="site-domain">(<a href="https://{{ site.domain }}" target="_blank" rel="noopener">{{ site.domain }}</a>)</span>
         <span class="site-grade site-grade-{{ site.status }}">{{ site.status|title }}</span>
       </div>
       <div class="site-status-details">
@@ -80,8 +80,7 @@ window.addEventListener("load", function onLoad() {
         {% else %}
         Tell {{ site.name|e }} they should improve their HTTPS support:
         {% endif %}
-          <a class="twitter-share-button" href="https://twitter.com/share" data-url="https://secureutah.github.io/utahwatch/{{ listing.shortname }}.html#site-{{ site.twitter }}" data-text=".@{{ site.twitter }}  {% if site.status == 'good' %}Thank you for protecting your website visitors with great HTTPS!{% else %}Any plans to better protect your users by improving your website's HTTPS?{% endif %} " data-hashtags="HTTPSUtah" data-dnt="true" data-related="secureutah" data-count="horizontal">
-            Tweet @{{ site.twitter }}
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fsecureutah.github.io%2futahwatch%2f{{ listing.shortname }}.html%23site-{{ site.twitter }}&text=.%40{{ site.twitter }}++{% if site.status == 'good' %}Thank+you+for+protecting+your+website+visitors+with+great+HTTPS!{% else %}Please+protect+your+visitors+by+improving+your+website%27s+HTTPS!{% endif %}++&hashtags=HTTPSforUtah" target="_blank" rel="noopener">Tweet @{{ site.twitter }}
           </a>
         </div>
         {% endif %}
@@ -92,7 +91,4 @@ window.addEventListener("load", function onLoad() {
 </section>
 {% endfor %}
 
-<script>
-window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
-</script>
 {% endblock %}

@@ -62,15 +62,26 @@ ul, ol {
     margin: 0px;
     padding-left: 20px;
 }
-
 code {
     font-family: Consolas, monospace;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+i {
+    font-style: italic;
 }
 
 header {
     width: 100%;
     margin: 0px;
-    padding: 20px 0;
+    padding: 10px 0;
     font-size: 14pt;
     text-align: center;
     border: 1px solid #D4D4D4;
@@ -174,6 +185,9 @@ body {
 .site-status-summary {
     cursor: pointer;
 }
+.site-status-summary:hover > .site-name-link {
+    visibility: visible;
+}
 .site-details-expander::before {
     content: "\e081";
     font-size: 11pt;
@@ -183,6 +197,16 @@ body {
 }
 .site-name {
     font-weight: bold;
+}
+.site-name-link {
+    visibility: hidden;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 0px 4px;
+    color: #00B0E4;
+}
+.site-name-link:active {
+    color: #0072AA;
 }
 .site-grade {
     float: right;

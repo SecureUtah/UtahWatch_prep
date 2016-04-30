@@ -166,13 +166,13 @@ def check_secure_connection(info):
         secure_sock.close()
     msg = "A verified TLS connection can be established. "
     if info.ssllabs_grade is not None:
-        grade_msg = "<a href=\"https://www.ssllabs.com/ssltest/analyze.html?d={}\" target=\"_blank\">SSL Labs grade</a> is " + info.ssllabs_grade + "."
+        grade_msg = "<a href=\"https://www.ssllabs.com/ssltest/analyze.html?d={}\" target=\"_blank\" rel=\"noopener\">SSL Labs grade</a> is " + info.ssllabs_grade + "."
         if info.ssllabs_grade == "F":
             good_connection.fail(grade_msg.format(info.domain))
             return
         msg += grade_msg
     else:
-        msg += "(<a href=\"https://www.ssllabs.com/ssltest/analyze.html?d={}\" target=\"_blank\">SSL Labs report</a>)"
+        msg += "(<a href=\"https://www.ssllabs.com/ssltest/analyze.html?d={}\" target=\"_blank\" rel=\"noopener\">SSL Labs report</a>)"
     info.secure_connection_works = True
     good_connection.succeed(msg.format(info.domain))
 
@@ -200,7 +200,7 @@ def check_https_page(info):
             else:
                 good_sts.fail("HTTP <code>Strict-Transport-Security</code> header doesn't contain a <code>max-age</code> directive.")
         else:
-            good_sts.fail("HTTP <code>Strict-Transport-Security</code> header is not set. (<a href=\"https://https.cio.gov/hsts/\" target=\"_blank\">About HSTS</a>)")
+            good_sts.fail("HTTP <code>Strict-Transport-Security</code> header is not set. (<a href=\"https://https.cio.gov/hsts/\" target=\"_blank\" rel=\"noopener\">About HSTS</a>)")
         info.mixed_content = tree is not None and has_mixed_content(tree)
         if info.mixed_content:
             https_load.fail("The HTML page loaded over HTTPS has mixed content.")

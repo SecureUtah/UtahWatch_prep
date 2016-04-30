@@ -30,7 +30,7 @@ window.addEventListener("load", function onLoad() {
 <h1>UtahWatch:&nbsp;&nbsp;{{ listing.name }}</h1>
 <p>UtahWatch evaluates and rates the <strong>HTTPS support</strong> of almost 300 Utah websites.
 <p>Click the Plus icon next to a name to see the reasons for that website's rating.
-<p>The <a href="about.html">About page</a> explains the rating criteria and this project.
+<p>The <a href="about.html"><strong>About page</strong></a> explains the rating criteria and this project.
 
 <br>
 <br>
@@ -58,6 +58,7 @@ window.addEventListener("load", function onLoad() {
         <span class="glyphicon site-details-expander"></span>
         <span class="site-name">{{ site.name|e }}</span>
         <span class="site-domain">(<a href="https://{{ site.domain }}" target="_blank" rel="noopener">{{ site.domain }}</a>)</span>
+        <a class="site-name-link" title="Link to this entry" href="https://secureutah.github.io/utahwatch/{{ listing.shortname }}.html#site-{{ site.twitter }}"><strong>¶</strong></a>
         <span class="site-grade site-grade-{{ site.status }}">{{ site.status|title }}</span>
       </div>
       <div class="site-status-details">
@@ -80,7 +81,7 @@ window.addEventListener("load", function onLoad() {
         {% else %}
         Tell {{ site.name|e }} they should improve their HTTPS support:
         {% endif %}
-          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fsecureutah.github.io%2futahwatch%2f{{ listing.shortname }}.html%23site-{{ site.twitter }}&text=.%40{{ site.twitter }}++{% if site.status == 'good' %}Thank+you+for+protecting+your+website+visitors+with+great+HTTPS!{% else %}Please+protect+your+visitors+by+improving+your+website%27s+HTTPS!{% endif %}++&hashtags=HTTPSforUtah" target="_blank" rel="noopener">Tweet @{{ site.twitter }}
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fsecureutah.github.io%2futahwatch%2f{{ listing.shortname }}.html%23site-{{ site.twitter }}&text=.%40{{ site.twitter }}++{% if site.status == 'good' %}Thank+you+for+protecting+your+website+visitors+with+great+HTTPS!{% else %}Please+protect+your+visitors+by+improving+your+website%27s+HTTPS!{% endif %}++&hashtags=HTTPSforUtah" target="_blank" rel="noopener"><strong>Tweet @{{ site.twitter }}</strong>
           </a>
         </div>
         {% endif %}

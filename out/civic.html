@@ -116,7 +116,7 @@ ga('send', 'pageview');
 <h1>UtahWatch:&nbsp;&nbsp;Civic</h1>
 <p>UtahWatch evaluates and rates the <strong>HTTPS support</strong> of almost 300 Utah websites.
 <p>Click the Plus icon next to a name to see the reasons for that website's rating.
-<p>The <a href="about.html"><strong>About page</strong></a> explains the rating criteria and this project.
+<p>See the <a href="about.html"><strong>About page</strong></a> for information about this project and the rating criteria.
 
 <br>
 <br>
@@ -238,7 +238,7 @@ ga('send', 'pageview');
         <span class="site-name">Equality Utah</span>
         <span class="site-domain">(<a href="https://www.equalityutah.org" target="_blank" rel="noopener">www.equalityutah.org</a>)</span>
         <a class="site-name-link" title="Link to this entry" href="https://secureutah.github.io/utahwatch/civic.html#site-equalityutah"><strong>¶</strong></a>
-        <span class="site-grade site-grade-mediocre">Mediocre</span>
+        <span class="site-grade site-grade-bad">Bad</span>
       </div>
       <div class="site-status-details">
         <ul class="site-check-list">
@@ -248,8 +248,8 @@ ga('send', 'pageview');
             A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.equalityutah.org" target="_blank" rel="noopener">SSL Labs report</a>)
         
           <li class="site-check-item">
-            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
-            A page can be successfully fetched over HTTPS.
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTML page loaded over HTTPS has mixed content.
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
@@ -440,14 +440,26 @@ ga('send', 'pageview');
         <span class="site-name">Utah Public Employees&#39; Association</span>
         <span class="site-domain">(<a href="https://www.upea.net" target="_blank" rel="noopener">www.upea.net</a>)</span>
         <a class="site-name-link" title="Link to this entry" href="https://secureutah.github.io/utahwatch/civic.html#site-"><strong>¶</strong></a>
-        <span class="site-grade site-grade-bad">Bad</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
       </div>
       <div class="site-status-details">
         <ul class="site-check-list">
         
           <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.upea.net" target="_blank" rel="noopener">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Certificate hostname verification fails.
+            HTTP <code>Strict-Transport-Security</code> header is set but the <code>max-age</code> is less than 30 days.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
         
         </ul>
         
@@ -770,8 +782,20 @@ ga('send', 'pageview');
         <ul class="site-check-list">
         
           <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.slcpl.org" target="_blank" rel="noopener">SSL Labs report</a>)
+        
+          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Certificate not trusted by Mozilla cert store.
+            The HTML page loaded over HTTPS has mixed content.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP <code>Strict-Transport-Security</code> header is not set. (<a href="https://https.cio.gov/hsts/" target="_blank" rel="noopener">About HSTS</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
         
         </ul>
         
@@ -1119,7 +1143,7 @@ ga('send', 'pageview');
       <br>
       <center><i><a href='#TOP'>Back to the top</a></i></center>
       <footer>
-        UtahWatch is a project by <a href="http://secureutah.org" target="_blank" rel="noopener">SecureUtah.org</a>. Last updated <time>2016-04-30 10:10Z</time>.
+        UtahWatch is a project by <a href="http://secureutah.org" target="_blank" rel="noopener">SecureUtah.org</a>. Last updated <time>2016-06-04 07:40Z</time>.
       </footer>
     </div>
   </body>

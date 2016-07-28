@@ -40,6 +40,10 @@
         {
             "name": "Politics",
             "shortname": "politics"
+        },
+        {
+            "name": "Utah.gov",
+            "shortname": "utah_gov"
         }
     ]
 }

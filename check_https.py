@@ -19,7 +19,7 @@ import requests
 from lxml import etree, html
 
 PARALLELISM = 8
-USER_AGENT = "UtahWatch_Bot / contact: choose+bot_at_secureutah.org"
+USER_AGENT = "UtahWatch_HTTPSCheckerBot - choose+bot_at_secureutah.org"
 ANALYTICS = """<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

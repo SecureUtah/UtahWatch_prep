@@ -115,11 +115,6 @@
             "linkname": "state",
             "sites": [
                 {
-                    "name": "State of Utah",
-                    "domain": "utah.gov",
-                    "twitter": "utahgov"
-                },
-                {
                     "name": "Utah Courts",
                     "domain": "www.utcourts.gov",
                     "twitter": "utahstatecourts"
@@ -161,6 +156,10 @@
                 {
                     "name": "Utah Chiefs of Police Association",
                     "domain": "www.utahchiefs.org"
+                },
+                {
+                    "name": "Utah Emergency Management",
+                    "domain": "www.emergencyinfoutah.com"
                 },
                 {
                     "name": "Utah Fire Info",

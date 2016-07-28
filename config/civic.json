@@ -11,7 +11,7 @@
                 },
                 {
                     "name": "Digital Citizenship Utah",
-                    "domain": "www.digcitutah.org",
+                    "domain": "digcitutah.com",
                     "twitter": "digcitutah"
                 },
                 {
@@ -136,13 +136,18 @@
             ]
         },
         {
-            "name": "Tourism",
+            "name": "Tourism, Culture",
             "linkname": "tourism",
             "sites": [
                 {
                     "name": "Downtown SLC",
                     "domain": "www.downtownslc.org",
                     "twitter": "downtownslc"
+                },
+                {
+                    "name": "Utah Arts Festival",
+                    "domain": "uaf.org",
+                    "twitter": "UtahArtsFest"
                 },
                 {
                     "name": "Utah Office of Tourism",

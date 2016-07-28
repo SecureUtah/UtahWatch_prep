@@ -1,0 +1,543 @@
+{
+    "categories": [
+        {
+            "name": "Subdomains of Utah.gov",
+            "linkname": " ",
+            "sites": [
+                {
+                    "name": "Utah.gov Homepage",
+                    "domain": "utah.gov",
+                    "twitter": "utahgov"
+                },
+                {
+                    "name": "Dept. of Alchoholic Beverage Control",
+                    "domain": "abc.utah.gov"
+                },
+                {
+                    "name": "Dept. of Agriculture and Food",
+                    "domain": "ag.utah.gov"
+                },
+                {
+                    "name": "Current Air Conditions",
+                    "domain": "air.utah.gov"
+                },
+                {
+                    "name": "Division of Air Quality",
+                    "domain": "airquality.utah.gov"
+                },
+                {
+                    "name": "Division of Archives & Records Services",
+                    "domain": "archives.utah.gov"
+                },
+                {
+                    "name": "Office of the Attorney General",
+                    "domain": "attorneygeneral.utah.gov"
+                },
+                {
+                    "name": "Office of the State Auditor",
+                    "domain": "auditor.utah.gov"
+                },
+                {
+                    "name": "Apostilles and Authentications",
+                    "domain": "authentications.utah.gov"
+                },
+                {
+                    "name": "Bureau of Criminal Identification",
+                    "domain": "bci.utah.gov"
+                },
+                {
+                    "name": "Beaver County",
+                    "domain": "beaver.utah.gov"
+                },
+                {
+                    "name": "Brigham City",
+                    "domain": "brighamcity.utah.gov"
+                },
+                {
+                    "name": "Broadband Outreach Center",
+                    "domain": "broadband.utah.gov"
+                },
+                {
+                    "name": "Utah State Budget",
+                    "domain": "budget.utah.gov"
+                },
+                {
+                    "name": "Governor's Office of Economic Development",
+                    "domain": "business.utah.gov"
+                },
+                {
+                    "name": "Civil Air Patrol",
+                    "domain": "cap.utah.gov"
+                },
+                {
+                    "name": "Caucas Information",
+                    "domain": "caucus.utah.gov"
+                },
+                {
+                    "name": "Child Care Licensing Program",
+                    "domain": "childcarelicensing.utah.gov"
+                },
+                {
+                    "name": "EPICC Program",
+                    "domain": "choosehealth.utah.gov"
+                },
+                {
+                    "name": "Child Identity Protection",
+                    "domain": "cip.utah.gov"
+                },
+                {
+                    "name": "Citizen Corps",
+                    "domain": "citizencorps.utah.gov"
+                },
+                {
+                    "name": "Dept. of Commerce",
+                    "domain": "commerce.utah.gov"
+                },
+                {
+                    "name": "UDOT Traffic",
+                    "domain": "commuterlink.utah.gov"
+                },
+                {
+                    "name": "Division of Consumer Protection",
+                    "domain": "consumerprotection.utah.gov"
+                },
+                {
+                    "name": "Division of Corporations & Commercial Code",
+                    "domain": "corporations.utah.gov"
+                },
+                {
+                    "name": "Dept. of Corrections",
+                    "domain": "corrections.utah.gov"
+                },
+                {
+                    "name": "Cottonwood Heights City",
+                    "domain": "cottonwoodheights.utah.gov"
+                },
+                {
+                    "name": "Office for Victims of Crime",
+                    "domain": "crimevictim.utah.gov"
+                },
+                {
+                    "name": "Division of Aging & Adult Services",
+                    "domain": "daas.utah.gov"
+                },
+                {
+                    "name": "Dept. of Administrative Services",
+                    "domain": "das.utah.gov"
+                },
+                {
+                    "name": "Division of Child & Family Services",
+                    "domain": "dcfs.utah.gov"
+                },
+                {
+                    "name": "Delta City",
+                    "domain": "delta.utah.gov"
+                },
+                {
+                    "name": "Dept. of Environmental Quality",
+                    "domain": "deq.utah.gov"
+                },
+                {
+                    "name": "Division of Facilities Construction & Management",
+                    "domain": "dfcm.utah.gov"
+                },
+                {
+                    "name": "Dept. of Financial Institutions",
+                    "domain": "dfi.utah.gov"
+                },
+                {
+                    "name": "Dept. of Human Resource Management",
+                    "domain": "dhrm.utah.gov"
+                },
+                {
+                    "name": "State of Utah Financial Disclosures",
+                    "domain": "disclosures.utah.gov"
+                },
+                {
+                    "name": "Driver License Division",
+                    "domain": "dld.utah.gov"
+                },
+                {
+                    "name": "Division of Motor Vehicles",
+                    "domain": "dmv.utah.gov"
+                },
+                {
+                    "name": "Utah Correctional Industries",
+                    "domain": "doc.utah.gov"
+                },
+                {
+                    "name": "Division of Occupational & Professional Licensing",
+                    "domain": "dopl.utah.gov"
+                },
+                {
+                    "name": "Division of Drinking Water",
+                    "domain": "drinkingwater.utah.gov"
+                },
+                {
+                    "name": "Division of Substance Abuse & Mental Health",
+                    "domain": "dsamh.utah.gov"
+                },
+                {
+                    "name": "Division of Services for People with Disabilities",
+                    "domain": "dspd.utah.gov"
+                },
+                {
+                    "name": "Dept. of Technology Services",
+                    "domain": "dts.utah.gov"
+                },
+                {
+                    "name": "Duchesne County",
+                    "domain": "duchesne.utah.gov"
+                },
+                {
+                    "name": "Election Preliminary Results",
+                    "domain": "electionresults.utah.gov"
+                },
+                {
+                    "name": "Elections Information",
+                    "domain": "elections.utah.gov"
+                },
+                {
+                    "name": "Governor’s Office of Energy Development",
+                    "domain": "energy.utah.gov"
+                },
+                {
+                    "name": "Express Pass Information",
+                    "domain": "www.expresspass.utah.gov"
+                },
+                {
+                    "name": "Farmington City",
+                    "domain": "farmington.utah.gov"
+                },
+                {
+                    "name": "Division of Forestry, Fire & State Lands",
+                    "domain": "ffsl.utah.gov"
+                },
+                {
+                    "name": "Utah Film Commision",
+                    "domain": "film.utah.gov"
+                },
+                {
+                    "name": "Division of Finance",
+                    "domain": "finance.utah.gov"
+                },
+                {
+                    "name": "State Fire Marshal's Office",
+                    "domain": "firemarshal.utah.gov"
+                },
+                {
+                    "name": "Division of Fleet Operations",
+                    "domain": "fleet.utah.gov"
+                },
+                {
+                    "name": "Public FTP Site",
+                    "domain": "ftp.utah.gov"
+                },
+                {
+                    "name": "Garfield County",
+                    "domain": "garfield.utah.gov"
+                },
+                {
+                    "name": "Utah Geological Survey",
+                    "domain": "geology.utah.gov"
+                },
+                {
+                    "name": "State Geographic Information Database",
+                    "domain": "gis.utah.gov"
+                },
+                {
+                    "name": "Governor's Office of Economic Development",
+                    "domain": "goed.utah.gov"
+                },
+                {
+                    "name": "Dept. of Health",
+                    "domain": "health.utah.gov"
+                },
+                {
+                    "name": "Dept. of Heritage & Arts",
+                    "domain": "heritage.utah.gov"
+                },
+                {
+                    "name": "Utah Highway Patrol",
+                    "domain": "highwaypatrol.utah.gov"
+                },
+                {
+                    "name": "Highway Safety Office",
+                    "domain": "highwaysafety.utah.gov"
+                },
+                {
+                    "name": "Utah History To Go",
+                    "domain": "historytogo.utah.gov"
+                },
+                {
+                    "name": "Dept. of Human Services",
+                    "domain": "hs.utah.gov"
+                },
+                {
+                    "name": "Dept. of Human Services Policies",
+                    "domain": "hspolicy.utah.gov"
+                },
+                {
+                    "name": "ID Theft Central",
+                    "domain": "idtheft.utah.gov"
+                },
+                {
+                    "name": "I Love History",
+                    "domain": "ilovehistory.utah.gov"
+                },
+                {
+                    "name": "Utah Income Taxes",
+                    "domain": "incometax.utah.gov"
+                },
+                {
+                    "name": "Utah Insurance Department",
+                    "domain": "insurance.utah.gov"
+                },
+                {
+                    "name": "Department of Workforce Services",
+                    "domain": "jobs.utah.gov"
+                },
+                {
+                    "name": "Commission on Criminal & Juvenile Justice",
+                    "domain": "justice.utah.gov"
+                },
+                {
+                    "name": "Kanab City",
+                    "domain": "kanab.utah.gov"
+                },
+                {
+                    "name": "Kane County",
+                    "domain": "kane.utah.gov"
+                },
+                {
+                    "name": "Symantec Encryption Verified Directory",
+                    "domain": "keys.utah.gov"
+                },
+                {
+                    "name": "Utah Labor Commission",
+                    "domain": "laborcommission.utah.gov"
+                },
+                {
+                    "name": "Utah State Legislature",
+                    "domain": "le.utah.gov"
+                },
+                {
+                    "name": "Lyris Email Marketing Login",
+                    "domain": "list.utah.gov"
+                },
+                {
+                    "name": "Lobbyist Financial Disclose",
+                    "domain": "lobbyist.utah.gov"
+                },
+                {
+                    "name": "Utah Economic Development Map",
+                    "domain": "locate.utah.gov"
+                },
+                {
+                    "name": "Login Portal",
+                    "domain": "login.utah.gov"
+                },
+                {
+                    "name": "Utah DNR Map & Bookstore",
+                    "domain": "www.mapstore.utah.gov"
+                },
+                {
+                    "name": "Utah Medicaid Program",
+                    "domain": "medicaid.utah.gov"
+                },
+                {
+                    "name": "Murray City",
+                    "domain": "murray.utah.gov"
+                },
+                {
+                    "name": "Motor Vehicle Enforcement Division",
+                    "domain": "mved.utah.gov"
+                },
+                {
+                    "name": "Unclaimed Property Search",
+                    "domain": "mycash.utah.gov"
+                },
+                {
+                    "name": "Notary Information",
+                    "domain": "notary.utah.gov"
+                },
+                {
+                    "name": "Office of Consumer Services",
+                    "domain": "ocs.utah.gov"
+                },
+                {
+                    "name": "Division of Oil, Gas & Mining",
+                    "domain": "ogm.utah.gov"
+                },
+                {
+                    "name": "Utah's Online Library",
+                    "domain": "onlinelibrary.utah.gov"
+                },
+                {
+                    "name": "Open Data Catalog",
+                    "domain": "opendata.utah.gov"
+                },
+                {
+                    "name": "Office of Recovery Services",
+                    "domain": "ors.utah.gov"
+                },
+                {
+                    "name": "PAWNED PROPERTY CENTRAL DATABASE",
+                    "domain": "pawn.utah.gov"
+                },
+                {
+                    "name": "Peace Officer Standards & Training",
+                    "domain": "post.utah.gov"
+                },
+                {
+                    "name": "Property Tax Division",
+                    "domain": "propertytax.utah.gov"
+                },
+                {
+                    "name": "Public Service Commission",
+                    "domain": "psc.utah.gov"
+                },
+                {
+                    "name": "Utah Government Digital Library",
+                    "domain": "publications.utah.gov"
+                },
+                {
+                    "name": "Dept. of Public Safety",
+                    "domain": "publicsafety.utah.gov"
+                },
+                {
+                    "name": "Division of Purchasing & General Services",
+                    "domain": "purchasing.utah.gov"
+                },
+                {
+                    "name": "Radon Program",
+                    "domain": "radon.utah.gov"
+                },
+                {
+                    "name": "Division of Real Estate",
+                    "domain": "realestate.utah.gov"
+                },
+                {
+                    "name": "Cisco VPN Login",
+                    "domain": "remote.utah.gov"
+                },
+                {
+                    "name": "Division of Risk Management",
+                    "domain": "risk.utah.gov"
+                },
+                {
+                    "name": "Division of Administrative Rules",
+                    "domain": "www.rules.utah.gov"
+                },
+                {
+                    "name": "Sandy City",
+                    "domain": "sandy.utah.gov"
+                },
+                {
+                    "name": "Utah State Board of Education",
+                    "domain": "schools.utah.gov"
+                },
+                {
+                    "name": "Division of Securities",
+                    "domain": "securities.utah.gov"
+                },
+                {
+                    "name": "Utah State Senate",
+                    "domain": "senate.utah.gov"
+                },
+                {
+                    "name": "Statewide Information & Analysis Center",
+                    "domain": "siac.utah.gov"
+                },
+                {
+                    "name": "South Jordan City",
+                    "domain": "sjc.utah.gov"
+                },
+                {
+                    "name": "State of Utah Jobs",
+                    "domain": "statejobs.utah.gov"
+                },
+                {
+                    "name": "State Parks Office",
+                    "domain": "stateparks.utah.gov"
+                },
+                {
+                    "name": "STEM Action Center",
+                    "domain": "stem.utah.gov"
+                },
+                {
+                    "name": "State Tax Commission",
+                    "domain": "tax.utah.gov"
+                },
+                {
+                    "name": "TaxExpress Service",
+                    "domain": "taxexpress.utah.gov"
+                },
+                {
+                    "name": "Trust Lands Administration",
+                    "domain": "trustlands.utah.gov"
+                },
+                {
+                    "name": "Dept. of Transportation",
+                    "domain": "udot.utah.gov"
+                },
+                {
+                    "name": "Current Traffic Information",
+                    "domain": "udottraffic.utah.gov"
+                },
+                {
+                    "name": "Utah State Hospital",
+                    "domain": "ush.utah.gov"
+                },
+                {
+                    "name": "Office of Rehabilitation",
+                    "domain": "www.usor.utah.gov"
+                },
+                {
+                    "name": "Dept. of Veterans & Military Affairs",
+                    "domain": "veterans.utah.gov"
+                },
+                {
+                    "name": "VISTA Service Information",
+                    "domain": "vista.utah.gov"
+                },
+                {
+                    "name": "Voting Information",
+                    "domain": "vote.utah.gov"
+                },
+                {
+                    "name": "Cisco VPN Login",
+                    "domain": "vpn.utah.gov"
+                },
+                {
+                    "name": "Wasatch County",
+                    "domain": "wasatch.utah.gov"
+                },
+                {
+                    "name": "Washington County",
+                    "domain": "washco.utah.gov"
+                },
+                {
+                    "name": "Drinking Water Information",
+                    "domain": "waterlink.utah.gov"
+                },
+                {
+                    "name": "Water Quality Information",
+                    "domain": "waterquality.utah.gov"
+                },
+                {
+                    "name": "Division of Water Rights",
+                    "domain": "waterrights.utah.gov"
+                },
+                {
+                    "name": "State Government Search Engine",
+                    "domain": "webwatch.utah.gov"
+                },
+                {
+                    "name": "Division of Wildlife Resources",
+                    "domain": "wildlife.utah.gov"
+                }
+            ]
+        }
+    ]
+}

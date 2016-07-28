@@ -110,6 +110,11 @@
                     "twitter": "pluralsight"
                 },
                 {
+                    "name": "Red Olive",
+                    "domain": "www.redolive.com",
+                    "twitter": "redolivedesign"
+                },
+                {
                     "name": "SaltStack",
                     "domain": "www.saltstack.com",
                     "twitter": "saltstack"
@@ -226,7 +231,12 @@
                 {
                     "name": "Peterson Partners",
                     "domain": "www.petersonpartners.com",
-                    "twitter": "PetersonPrtnrs"
+                    "twitter": "petersonprtnrs"
+                },
+                {
+                    "name": "Startup Ogden",
+                    "domain": "www.startupogden.com",
+                    "twitter": "startupogden"
                 },
                 {
                     "name": "Sustainable Startups",
@@ -268,6 +278,11 @@
                     "name": "DevPoint Labs",
                     "domain": "www.devpointlabs.com",
                     "twitter": "devpointlabs"
+                },
+                {
+                    "name": "Girls Go Digital",
+                    "domain": "www.girlsgodigital.org",
+                    "twitter": "girlsgodigital"
                 },
                 {
                     "name": "Hack Night SLC",

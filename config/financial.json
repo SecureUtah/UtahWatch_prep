@@ -62,6 +62,221 @@
             ]
         },
         {
+            "name": "Credit Unions",
+            "linkname": "creditunions",
+            "sites": [
+                {
+                    "name": "Alpine CU",
+                    "domain": "www.alpinecu.com",
+                    "twitter": "alpinecu"
+                },
+                {
+                    "name": "American First CU",
+                    "domain": "www.americafirst.com",
+                    "twitter": "AFCU"
+                },
+                {
+                    "name": "American United FCU",
+                    "domain": "www.amucu.org",
+                    "twitter": "AUFCU"
+                },
+                {
+                    "name": "Associated Federal Employees FCU",
+                    "domain": "www.afefcu.com"
+                },
+                {
+                    "name": "Box Elder CU",
+                    "domain": "boxeldercu.com",
+                    "twitter": "boxeldercu"
+                },
+                {
+                    "name": "Central Utah Project FCU",
+                    "domain": "cupcu.com"
+                },
+                {
+                    "name": "Cyprus CU",
+                    "domain": "cypruscu.com",
+                    "twitter": "CyprusCU"
+                },
+                {
+                    "name": "Deseret First CU",
+                    "domain": "www.dfcu.com",
+                    "twitter": "deseretfirst"
+                },
+                {
+                    "name": "Desertview FCU",
+                    "domain": "www.dview.org"
+                },
+                {
+                    "name": "Devil's Slide FCU",
+                    "domain": "devilsslidefcu.org"
+                },
+                {
+                    "name": "Dugway FCU",
+                    "domain": "www.dugwayfcu.org"
+                },
+                {
+                    "name": "Eastern Utah CCU",
+                    "domain": "www.euccu.com"
+                },
+                {
+                    "name": "Education First CU",
+                    "domain": "www.e1cu.org",
+                    "twitter": "education1cu"
+                },
+                {
+                    "name": "Firefighters CU",
+                    "domain": "www.firefighterscu.com"
+                },
+                {
+                    "name": "Freedom CU",
+                    "domain": "www.freedomcu.com"
+                },
+                {
+                    "name": "Goldenwest CU",
+                    "domain": "www.gwcu.org",
+                    "twitter": "GoldenwestCU"
+                },
+                {
+                    "name": "Granite CU",
+                    "domain": "www.granite.org",
+                    "twitter": "GraniteCU"
+                },
+                {
+                    "name": "Grand County CU",
+                    "domain": "www.grandcountycreditunion.com"
+                },
+                {
+                    "name": "Health Care CU",
+                    "domain": "myhccu.org",
+                    "twitter": "myhccu"
+                },
+                {
+                    "name": "Hercules CU",
+                    "domain": "www.herculescu.com",
+                    "twitter": "HerculesCU"
+                },
+                {
+                    "name": "Hi-Land CU",
+                    "domain": "www.hilandcu.com"
+                },
+                {
+                    "name": "Horizon CU",
+                    "domain": "www.myhorizoncu.com",
+                    "twitter": "myhorizoncu"
+                },
+                {
+                    "name": "Jordan CU",
+                    "domain": "jordan-cu.org",
+                    "twitter": "Jordan_CU"
+                },
+                {
+                    "name": "King Peak CU",
+                    "domain": "www.kingspeakcu.com"
+                },
+                {
+                    "name": "Logan Cache Rich CU",
+                    "domain": "www.lcrcu.org"
+                },
+                {
+                    "name": "Logan Medical FCU",
+                    "domain": "www.loganmedicalfcu.org"
+                },
+                {
+                    "name": "Meadow Gold Emp CU",
+                    "domain": "mgecu.org"
+                },
+                {
+                    "name": "Members First CU",
+                    "domain": "www.memfirstcu.com"
+                },
+                {
+                    "name": "Midvalley FCU",
+                    "domain": "midvalleyfcu.org"
+                },
+                {
+                    "name": "Millard County CU",
+                    "domain": "www.millardccu.com"
+                },
+                {
+                    "name": "Mountain America CU",
+                    "domain": "www.macu.com",
+                    "twitter": "MountainAmerica"
+                },
+                {
+                    "name": "National JACL CU",
+                    "domain": "www.jaclcu.com"
+                },
+                {
+                    "name": "Nebo CU",
+                    "domain": "nebocreditunion.org",
+                    "twitter": "nebocreditunion"
+                },
+                {
+                    "name": "P&S CU",
+                    "domain": "www.pandscu.org",
+                    "twitter": "pandscu"
+                },
+                {
+                    "name": "Pacific Horizon CU",
+                    "domain": "www.pacifichorizoncu.com"
+                },
+                {
+                    "name": "San Juan CU",
+                    "domain": "www.sanjuancu.com"
+                },
+                {
+                    "name": "Sunnyside CU",
+                    "domain": "www.sunnysidecu.org"
+                },
+                {
+                    "name": "TransWest CU",
+                    "domain": "www.transwestcu.com",
+                    "twitter": "TransWestCU"
+                },
+                {
+                    "name": "UCB CU for the Blind",
+                    "domain": "www.ucbcreditunionfortheblind.org"
+                },
+                {
+                    "name": "Utah Community CU",
+                    "domain": "www.uccu.com",
+                    "twitter": "uccufans"
+                },
+                {
+                    "name": "Utah Federal CU",
+                    "domain": "www.utahfederalcu.com"
+                },
+                {
+                    "name": "Utah First CU",
+                    "domain": "utahfirst.com",
+                    "twitter": "Utah_First"
+                },
+                {
+                    "name": "Utah Heritage CU",
+                    "domain": "www.utahheritagecu.org"
+                },
+                {
+                    "name": "Utah Power CU",
+                    "domain": "www.utahpowercu.org"
+                },
+                {
+                    "name": "Varian FCU",
+                    "domain": "www.varianfederalcu.org"
+                },
+                {
+                    "name": "Wasatch Peaks CU",
+                    "domain": "wasatchpeaks.com",
+                    "twitter": "WasatchPeaks"
+                },
+                {
+                    "name": "Weber State CU",
+                    "domain": "www.weberstatecu.com",
+                    "twitter": "WeberStateCU"
+                }
+            ]
+        },
+        {
             "name": "Services, Orgs",
             "linkname": "services",
             "sites": [
@@ -94,7 +309,7 @@
                     "domain": "www.uba.org"
                 },
                 {
-                    "name": "Utah Credit Union Assoc",
+                    "name": "Utah Credit Union Association",
                     "domain": "www.utahscreditunions.org"
                 }
             ]

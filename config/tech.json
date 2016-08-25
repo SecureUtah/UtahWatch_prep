@@ -5,6 +5,11 @@
             "linkname": "security",
             "sites": [
                 {
+                    "name": "ASIS Utah",
+                    "domain": "asisutah.org",
+                    "twitter": "ASISUtah"
+                },
+                {
                     "name": "BSidesSLC",
                     "domain": "www.bsidesslc.org",
                     "twitter": "bsidesslc"
@@ -20,6 +25,11 @@
                     "twitter": "dc801"
                 },
                 {
+                    "name": "DigiCert",
+                    "domain": "www.digicert.com",
+                    "twitter": "digicert"
+                },
+                {
                     "name": "Dixon Security",
                     "domain": "www.dixonsecurity.com",
                     "twitter": "dixonsecurity"
@@ -28,6 +38,11 @@
                     "name": "Eastwind Networks",
                     "domain": "www.eastwindnetworks.com",
                     "twitter": "breachdetection"
+                },
+                {
+                    "name": "Perpetual Storage",
+                    "domain": "perpetualstorage.com",
+                    "twitter": "PSIDataVault"
                 },
                 {
                     "name": "SAINTCON",
@@ -61,6 +76,11 @@
                     "twitter": "ancestry"
                 },
                 {
+                    "name": "BlueHost",
+                    "domain": "www.bluehost.com",
+                    "twitter": "bluehost"
+                },
+                {
                     "name": "Executech",
                     "domain": "www.executech.com",
                     "twitter": "executech"
@@ -84,6 +104,11 @@
                     "name": "Instructure",
                     "domain": "www.instructure.com",
                     "twitter": "instructure"
+                },
+                {
+                    "name": "Jet Digital Marketing",
+                    "domain": "www.jetdm.com",
+                    "twitter": "jet_dm"
                 },
                 {
                     "name": "MX Technologies",

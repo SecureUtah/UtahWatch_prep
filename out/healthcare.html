@@ -410,8 +410,20 @@ ga('send', 'pageview');
         <ul class="site-check-list">
         
           <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.dovecenter.org" target="_blank" rel="noopener">SSL Labs report</a>)
+        
+          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            A TLS-related error (TLSV1_UNRECOGNIZED_NAME) occurs when trying to connect.
+            The HTML page loaded over HTTPS has mixed content.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP <code>Strict-Transport-Security</code> header is not set. (<a href="https://https.cio.gov/hsts/" target="_blank" rel="noopener">About HSTS</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
         
         </ul>
         
@@ -440,7 +452,7 @@ ga('send', 'pageview');
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            <code>connect()</code> to port 443 times out.
+            Certificate hostname verification fails.
         
         </ul>
         
@@ -461,7 +473,7 @@ ga('send', 'pageview');
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            A TLS-related error (SSLV3_ALERT_HANDSHAKE_FAILURE) occurs when trying to connect.
+            Certificate hostname verification fails.
         
         </ul>
         
@@ -617,8 +629,8 @@ ga('send', 'pageview');
             HTTP <code>Strict-Transport-Security</code> header is not set. (<a href="https://https.cio.gov/hsts/" target="_blank" rel="noopener">About HSTS</a>)
         
           <li class="site-check-item">
-            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            HTTP site doesn't redirect to HTTPS.
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            HTTP site redirects to HTTPS.
         
         </ul>
         
@@ -983,7 +995,7 @@ ga('send', 'pageview');
       <br>
       <center><i><a href='#TOP'>Back to the top</a></i></center>
       <footer>
-        UtahWatch is a project by <a href="http://secureutah.org" target="_blank" rel="noopener">SecureUtah.org</a>. Last updated <time>2016-08-25 13:12Z</time>.
+        UtahWatch is a project by <a href="http://secureutah.org" target="_blank" rel="noopener">SecureUtah.org</a>. Last updated <time>2016-11-05 03:45Z</time>.
       </footer>
     </div>
   </body>

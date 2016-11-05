@@ -160,7 +160,7 @@ ga('send', 'pageview');
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Certificate hostname verification fails.
+            Certificate not trusted by Mozilla cert store.
         
         </ul>
         
@@ -210,7 +210,7 @@ ga('send', 'pageview');
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Nothing is listening on port 443.
+            Certificate hostname verification fails.
         
         </ul>
         
@@ -231,7 +231,7 @@ ga('send', 'pageview');
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Certificate hostname verification fails.
+            Certificate not trusted by Mozilla cert store.
         
         </ul>
         
@@ -373,7 +373,7 @@ ga('send', 'pageview');
     <h2 class="cat-name">Services, Organizations</h2>
     <a class="cat-name-link" title="Link to this category" href="#services">¶</a>
     <div class="cat-counts">
-      <span class="site-grade-bad">6</span>/<span class="site-grade-mediocre">1</span>/<span class="site-grade-good">0</span>
+      <span class="site-grade-bad">5</span>/<span class="site-grade-mediocre">2</span>/<span class="site-grade-good">0</span>
     </div>
   </div>
   <div class="site-category">
@@ -413,14 +413,26 @@ ga('send', 'pageview');
         <span class="site-name">Nonprofit Legal Services of Utah</span>
         <span class="site-domain">(<a href="https://www.nonprofitlegalservices.com" target="_blank" rel="noopener">www.nonprofitlegalservices.com</a>)</span>
         <a class="site-name-link" title="Link to this entry" href="https://secureutah.github.io/utahwatch/legal.html#site-"><strong>¶</strong></a>
-        <span class="site-grade site-grade-bad">Bad</span>
+        <span class="site-grade site-grade-mediocre">Mediocre</span>
       </div>
       <div class="site-status-details">
         <ul class="site-check-list">
         
           <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.nonprofitlegalservices.com" target="_blank" rel="noopener">SSL Labs report</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A page can be successfully fetched over HTTPS.
+        
+          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Certificate hostname verification fails.
+            HTTP <code>Strict-Transport-Security</code> header is not set. (<a href="https://https.cio.gov/hsts/" target="_blank" rel="noopener">About HSTS</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
         
         </ul>
         
@@ -570,7 +582,7 @@ ga('send', 'pageview');
       <br>
       <center><i><a href='#TOP'>Back to the top</a></i></center>
       <footer>
-        UtahWatch is a project by <a href="http://secureutah.org" target="_blank" rel="noopener">SecureUtah.org</a>. Last updated <time>2016-08-25 13:12Z</time>.
+        UtahWatch is a project by <a href="http://secureutah.org" target="_blank" rel="noopener">SecureUtah.org</a>. Last updated <time>2016-11-05 03:45Z</time>.
       </footer>
     </div>
   </body>

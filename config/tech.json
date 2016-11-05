@@ -10,6 +10,11 @@
                     "twitter": "ASISUtah"
                 },
                 {
+                    "name": "Braintrace",
+                    "domain": "www.braintrace.com",
+                    "twitter": "_braintrace"
+                },
+                {
                     "name": "BSidesSLC",
                     "domain": "www.bsidesslc.org",
                     "twitter": "bsidesslc"
@@ -53,6 +58,11 @@
                     "name": "Secuvant",
                     "domain": "www.secuvant.com",
                     "twitter": "secuvant"
+                },
+                {
+                    "name": "SilentBreak Security",
+                    "domain": "silentbreaksecurity.com",
+                    "twitter": "SilentBreakSec"
                 },
                 {
                     "name": "UtahSAINT",
@@ -173,6 +183,11 @@
                     "name": "ViaWest",
                     "domain": "www.viawest.com",
                     "twitter": "viawest_inc"
+                },
+                {
+                    "name": "Whistic",
+                    "domain": "whistic.com",
+                    "twitter": "whistic_inc"
                 },
                 {
                     "name": "XMission",

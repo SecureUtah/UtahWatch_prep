@@ -393,7 +393,7 @@ ga('send', 'pageview');
     <h2 class="cat-name">Parties</h2>
     <a class="cat-name-link" title="Link to this category" href="#parties">¶</a>
     <div class="cat-counts">
-      <span class="site-grade-bad">3</span>/<span class="site-grade-mediocre">1</span>/<span class="site-grade-good">0</span>
+      <span class="site-grade-bad">4</span>/<span class="site-grade-mediocre">0</span>/<span class="site-grade-good">0</span>
     </div>
   </div>
   <div class="site-category">
@@ -410,8 +410,20 @@ ga('send', 'pageview');
         <ul class="site-check-list">
         
           <li class="site-check-item">
+            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
+            A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.constitutionpartyofutah.com" target="_blank" rel="noopener">SSL Labs report</a>)
+        
+          <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
-            Certificate hostname verification fails.
+            The HTML page loaded over HTTPS has mixed content.
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP <code>Strict-Transport-Security</code> header is not set. (<a href="https://https.cio.gov/hsts/" target="_blank" rel="noopener">About HSTS</a>)
+        
+          <li class="site-check-item">
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            HTTP site doesn't redirect to HTTPS.
         
         </ul>
         
@@ -483,7 +495,7 @@ ga('send', 'pageview');
         <span class="site-name">Utah Republican Party</span>
         <span class="site-domain">(<a href="https://utah.gop" target="_blank" rel="noopener">utah.gop</a>)</span>
         <a class="site-name-link" title="Link to this entry" href="https://secureutah.github.io/utahwatch/politics.html#site-utahgop"><strong>¶</strong></a>
-        <span class="site-grade site-grade-mediocre">Mediocre</span>
+        <span class="site-grade site-grade-bad">Bad</span>
       </div>
       <div class="site-status-details">
         <ul class="site-check-list">
@@ -493,8 +505,8 @@ ga('send', 'pageview');
             A verified TLS connection can be established. (<a href="https://www.ssllabs.com/ssltest/analyze.html?d=utah.gop" target="_blank" rel="noopener">SSL Labs report</a>)
         
           <li class="site-check-item">
-            <span class="glyphicon glyphicon-ok-circle site-check-good"></span>
-            A page can be successfully fetched over HTTPS.
+            <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
+            The HTML page loaded over HTTPS has mixed content.
         
           <li class="site-check-item">
             <span class="glyphicon glyphicon-ban-circle site-check-bad"></span>
@@ -527,7 +539,7 @@ ga('send', 'pageview');
       <br>
       <center><i><a href='#TOP'>Back to the top</a></i></center>
       <footer>
-        UtahWatch is a project by <a href="http://secureutah.org" target="_blank" rel="noopener">SecureUtah.org</a>. Last updated <time>2016-08-25 13:12Z</time>.
+        UtahWatch is a project by <a href="http://secureutah.org" target="_blank" rel="noopener">SecureUtah.org</a>. Last updated <time>2016-11-05 03:45Z</time>.
       </footer>
     </div>
   </body>
